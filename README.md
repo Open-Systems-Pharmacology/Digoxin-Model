@@ -2,7 +2,7 @@
 Whole-body PBPK model of digoxin as P-gp DDI victim drug 
 
 
-![gim](https://github.com/Open-Systems-Pharmacology/Digoxin-Model/blob/master/DDI-Modeling-Network-2.png)
+![gim](https://github.com/Open-Systems-Pharmacology/Digoxin-Model/blob/master/DDI-Modeling-Network.png)
 
 ### Repository files
 Within this repository, we distribute a whole-body PBPK model of digoxin, that has been carefully developed using a large number of clinical studies and evaluated within our DDI modeling network. 

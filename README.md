@@ -1,5 +1,8 @@
 ## Digoxin-Model
-Whole-body PBPK model of digoxin as P-gp DDI victim drug
+Whole-body PBPK model of digoxin as P-gp DDI victim drug 
+
+
+![gim](https://github.com/Open-Systems-Pharmacology/Digoxin-Model/blob/master/DDI-Modeling-Network.png)
 
 ### Repository files
 Within this repository, we distribute a whole-body PBPK model of digoxin, that has been carefully developed using a large number of clinical studies and evaluated within our DDI modeling network. 
@@ -10,6 +13,4 @@ The PK-Sim project file contains simulations of all published clinical studies e
 The model is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE). 
 
 ### Reference
-[1] Hanke N, Frechen S, Moj D, Britz H, Eissing T, Wendl T, Lehr T. 
-PBPK models for CYP3A4 and P-gp DDI prediction: a modeling network of rifampicin, itraconazole, clarithromycin, midazolam, alfentanil and digoxin. 
-CPT Pharmacometrics Syst Pharmacol 2018. [accepted for publication] 
+[1] [Hanke N, Frechen S, Moj D, Britz H, Eissing T, Wendl T, Lehr T. PBPK models for CYP3A4 and P-gp DDI prediction: a modeling network of rifampicin, itraconazole, clarithromycin, midazolam, alfentanil and digoxin. CPT: Pharmacometrics & Systems Pharmacology (2018), https://doi.org/10.1002/psp4.12343.](https://ascpt.onlinelibrary.wiley.com/doi/abs/10.1002/psp4.12343) 

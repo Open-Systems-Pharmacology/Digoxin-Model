@@ -1,4 +1,4 @@
-#' @title Montelukast Evaluation report
+#' @title Digoxin Evaluation report
 #' @description Run a qualification workflow to create a qualification report.
 #' @param qualificationRunnerFolder Folder where QualificationRunner.exe is located
 #' @param pkSimPortableFolder Folder where PK-Sim is located.
@@ -26,7 +26,7 @@
 #' createQualificationReport("C:/Software/QualificationRunner9.1.1", versionInfo = versionInfo)
 #' 
 
-setwd("C:/Projects/Github/New folder/Update_2021_09/Adult_Models/new/Digoxin-Model/evaluation")
+setwd("C:/Digoxin-Model/evaluation/")
 qualificationRunnerFolder <- "C:/OSPQualification/QualificationRunner11.0.138"
 pkSimPortableFolder <- "C:/pk-sim-portable"
 

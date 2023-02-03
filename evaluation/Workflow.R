@@ -26,10 +26,6 @@
 #' createQualificationReport("C:/Software/QualificationRunner9.1.1", versionInfo = versionInfo)
 #' 
 
-setwd("C:/Digoxin-Model/evaluation/")
-qualificationRunnerFolder <- "C:/OSPQualification/QualificationRunner11.0.138"
-pkSimPortableFolder <- "C:/pk-sim-portable"
-
 
 createQualificationReport <- function(qualificationRunnerFolder,
                                       pkSimPortableFolder = NULL,
@@ -167,10 +163,3 @@ createQualificationReport <- function(qualificationRunnerFolder,
   }
   return(invisible())
 }
-
-createQualificationReport(qualificationRunnerFolder,
-                          pkSimPortableFolder = pkSimPortableFolder,
-                          createWordReport = FALSE,
-                          maxSimulationsPerCore = 3,
-                          versionInfo = NULL,
-                          wordConversionTemplate = NULL)

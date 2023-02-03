@@ -16,15 +16,13 @@
 
 **Eckermann 2012** Eckermann, G., Lahu, G., Nassr, N. & Bethke, T.D. Absence of pharmacokinetic interaction between roflumilast and digoxin in healthy adults. J. Clin. Pharmacol. 52, 251–7 (2012).
 
-**FDA 2009](#5-references)    U.S. Food and Drug Administration. NDA 22-425 MULTAQ (dronedarone hydrochloride) Tablets, 400 mg. (2009). 
-
 **Friedrich 2011** Friedrich, C. et al. Evaluation of the pharmacokinetic interaction after multiple oral doses of linagliptin and digoxin in healthy volunteers. Eur. J. Drug Metab. Pharmacokinet. 36, 17–24 (2011). 
 
 **Greiner 1999** Greiner, B. et al. The role of intestinal P-glycoprotein in the interaction of digoxin and rifampin. J. Clin. Invest. 104, 147–53 (1999).
 
-**Greiner 1999** Greiner, B. et al. The role of intestinal P-glycoprotein in the interaction of digoxin and rifampin. J. Clin. Invest. 104, 147–53 (1999). 
+**Gurley 2008** Gurley, B.J., Swain, A., Williams, D.K., Barone, G. & Battu, S.K. Gauging the clinical significance of P-glycoprotein-mediated herb-drug interactions: comparative effects of St. John’s wort, Echinacea, clarithromycin, and rifampin on digoxin pharmacokinetics. Mol. Nutr. food Res. 52, 772–9 (2008). 
 
-**Gurley 2008b** Gurley, B.J., Swain, A., Williams, D.K., Barone, G. & Battu, S.K. Gauging the clinical significance of P-glycoprotein-mediated herb-drug interactions: comparative effects of St. John’s wort, Echinacea, clarithromycin, and rifampin on digoxin pharmacokinetics. Mol. Nutr. food Res. 52, 772–9 (2008). 
+**Hanke 2018** Hanke N, Frechen S, Moj D, Britz H, Eissing T, Wendl T, Lehr T. PBPK Models for CYP3A4 and P-gp DDI Prediction: A Modeling Network of Rifampicin, Itraconazole, Clarithromycin, Midazolam, Alfentanil, and Digoxin. CPT Pharmacometrics Syst Pharmacol.. 2018 Oct;7(10):647-659.
 
 **Hayward 1978** Hayward, R.P., Greenwood, H. & Hamer, J. Comparison of digoxin and medigoxin in normal subjects. Br. J. Clin. Pharmacol. 6, 81–6 (1978). 
 
@@ -56,7 +54,7 @@
 
 **Obach 2008** Obach, R.S., Lombardo, F. & Waters, N.J. Trend analysis of a database of intravenous pharmacokinetic parameters in humans for 670 drug compounds. Drug Metab. Dispos. 36, 1385–405 (2008).
 
-**Ochs 1878** Ochs, H.R., Greenblatt, D.J., Bodem, G. & Harmatz, J.S. Dose-independent pharmacokinetics of digoxin in humans. Am. Heart J. 96, 507–11 (1978).
+**Ochs 1975** Ochs, H., Bodem, G., Schäfer, P.K., Kodrat, G., Dengler, H.J. Absorption of digoxin from the distal parts of the intestine in man. Eur J Clin Pharmacol. 1975 Dec 19;9(2-3):95-7.
 
 **Ochs 1978** Ochs, H.R., Greenblatt, D.J., Bodem, G. & Harmatz, J.S. Dose-independent pharmacokinetics of digoxin in humans. Am. Heart J. 96, 507–11 (1978). 
 
@@ -70,8 +68,6 @@
 
 **Ragueneau 1999** Ragueneau, I. et al. Pharmacokinetic and pharmacodynamic drug interactions between digoxin and macrogol 4000, a laxative polymer, in healthy volunteers. Br. J. Clin. Pharmacol. 48, 453–6 (1999). 
 
-**Reitman 2011** Reitman, M.L. et al. Rifampin’s acute inhibitory and chronic inductive drug interactions: experimental and model-based approaches to drug-drug interaction trial design. Clin. Pharmacol. Ther. 89, 234–42 (2011). 
-
 **Rengelshausen 2003** Rengelshausen, J. et al. Contribution of increased oral bioavailability and reduced nonglomerular renal clearance of digoxin to the digoxin-clarithromycin interaction. Br. J. Clin. Pharmacol. 56, 32–8 (2003).
 
 **Rodin 1988** Rodin, S.M., Johnson, B.F., Wilson, J., Ritchie, P. & Johnson, J. Comparative effects of verapamil and isradipine on steady-state digoxin kinetics. Clin. Pharmacol. Ther. 43, 668–72 (1988). 
@@ -79,6 +75,8 @@
 **Schlender 2016** Schlender JF, Meyer M, Thelen K, Krauss M, Willmann S, Eissing T, Jaehde U. Development of a Whole-Body Physiologically Based Pharmacokinetic Approach to Assess the Pharmacokinetics of Drugs in Elderly Individuals. Clin Pharmacokinet. 2016 Dec;55(12):1573-1589.
 
 **Steiness 1982** Steiness, E., Waldorff, S. & Hansen, P.B. Renal digoxin clearance: dependence on plasma digoxin and diuresis. Eur. J. Clin. Pharmacol. 23, 151–4 (1982). 
+
+**Stephens 2001** Stephens R.H., O'Neill C.A., Warhurst A., Carlson G.L., Rowland M-, Warhurst G. Kinetic profiling of P-glycoprotein-mediated drug efflux in rat and human intestinal epithelia. J. Pharmacol Exp Ther. 2001 Feb;296(2):584-91.
 
 **Tayrouz 2003** Tayrouz, Y. et al. Pharmacokinetic and pharmaceutic interaction between digoxin and Cremophor RH40. Clin. Pharmacol. Ther. 73, 397–405 (2003). 
 
@@ -89,8 +87,6 @@
 **Vaidyanathan 2008** Vaidyanathan, S. et al. Pharmacokinetics of the oral direct renin inhibitor aliskiren in combination with digoxin, atorvastatin, and ketoconazole in healthy subjects: the role of P-glycoprotein in the disposition of aliskiren. J. Clin. Pharmacol. 48, 1323–38 (2008). 
 
 **Verstuyft 2003** Verstuyft, C. et al. Dipyridamole enhances digoxin bioavailability via P-glycoprotein inhibition. Clin. Pharmacol. Ther. 73, 51–60 (2003). 
-
-**Wagner 1981** Wagner, J.G., Popat, K.D., Das, S.K., Sakmar, E. & Movahhed, H. Evidence of nonlinearity in digoxin pharmacokinetics. J. Pharmacokinet. Biopharm. 9, 147–66 (1981). 
 
 **Wagner 1981** Wagner, J.G., Popat, K.D., Das, S.K., Sakmar, E. & Movahhed, H. Evidence of nonlinearity in digoxin pharmacokinetics. J. Pharmacokinet. Biopharm. 9, 147–66 (1981). 
 

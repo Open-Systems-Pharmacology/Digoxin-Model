@@ -1,0 +1,12 @@
+name: Check Markdown links
+
+on: 
+  push:
+    branches:
+      - review
+ 
+jobs:
+  markdown-link-check:
+    uses: Open-Systems-Pharmacology/Workflows/.github/workflows/MarkdownLinksCheck.yml@main
+    with:
+      folder-path: 'Evaluation/report'

@@ -1837,7 +1837,7 @@
       "Name": "Digoxin po, 0.25 mg",
       "Model": "4Comp",
       "ObservedData": [
-        "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)",
+        "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)",
         "Gurley 2008 - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
       ],
       "Solver": {},
@@ -1895,6 +1895,18 @@
         "Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
         "Organism|Lumen|Feces|Digoxin|Fraction excreted to feces"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po, 0.25 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po, 0.25 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Gurley 2008 - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -1923,11 +1935,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -1973,6 +1985,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -1993,9 +2006,9 @@
               }
             },
             {
-              "Name": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)-Digoxin-Peripheral Venous Blood-Plasma-GeometricMean",
-              "X": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)|Time",
-              "Y": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|GeometricMean",
+              "Name": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)-Digoxin-Peripheral Venous Blood-Plasma-GeometricMean",
+              "X": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)|Time",
+              "Y": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|GeometricMean",
               "CurveOptions": {
                 "Color": "#9BBB59",
                 "LegendIndex": 7,
@@ -2061,6 +2074,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2081,9 +2095,9 @@
               }
             },
             {
-              "Name": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)-Digoxin-Peripheral Venous Blood-Plasma-GeometricMean",
-              "X": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)|Time",
-              "Y": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|GeometricMean",
+              "Name": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)-Digoxin-Peripheral Venous Blood-Plasma-GeometricMean",
+              "X": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)|Time",
+              "Y": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|GeometricMean",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 8,
@@ -2186,6 +2200,53 @@
         "Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
         "Organism|Lumen|Feces|Digoxin|Fraction excreted to feces"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin colon, 0.5 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Ochs 1975 - 0.5mg Patient 1 with normal colon mucosa - Digoxin - IV - 0.5 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin colon, 0.5 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Ochs 1975 - 0.5mg Patient 2 with normal colon mucosa - Digoxin - IV - 0.5 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin colon, 0.5 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Ochs 1975 - 0.5mg Patient 3 with normal colon mucosa - Digoxin - IV - 0.5 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin colon, 0.5 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Ochs 1975 - 0.5mg Patient 4 with normal colon mucosa - Digoxin - IV - 0.5 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin colon, 0.5 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Ochs 1975 - 0.5mg Patient 5 with normal colon mucosa - Digoxin - IV - 0.5 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin colon, 0.5 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Ochs 1975 - 0.5mg Patient 6 with normal colon mucosa - Digoxin - IV - 0.5 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin colon, 0.5 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Ochs 1975 - 0.5mg Patient 7 with normal colon mucosa - Digoxin - IV - 0.5 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin colon, 0.5 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Ochs 1975 - 0.5mg Patient 8 with normal colon mucosa - Digoxin - IV - 0.5 mg - Plasma - indiv."
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "Digoxin colon, 0.5 mg|Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
+          "ObservedData": "Ochs 1975 - 0.5mg Patients with normal colon mucosa - Digoxin - IV - 0.5 mg - Urine - agg. (n=8)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -2214,11 +2275,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -2658,6 +2719,18 @@
         "Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
         "Organism|Lumen|Feces|Digoxin|Fraction excreted to feces"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin iv, 0.01 mg/kg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Lalonde 1985 - 0.01mg/kg iv control - Digoxin - IV - 10 (250 µg/ml) µg/kg - Plasma - agg. (n=11)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin iv, 0.01 mg/kg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Rengelshausen 2003 - 0.01mg/kg iv with placebo - Digoxin - IV - 0.01 mg/kg - Plasma - agg. (n=3)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -2686,11 +2759,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -2730,6 +2803,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2818,6 +2892,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2943,6 +3018,13 @@
         "Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
         "Organism|Lumen|Feces|Digoxin|Fraction excreted to feces"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin iv, 0.01 mg/kg, Charcoal|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Lalonde 1985 - 0.01mg/kg charcoal - Digoxin - IV - 10 (250 µg/ml) µg/kg - Plasma - agg. (n=11)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -2971,11 +3053,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -3015,6 +3097,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3092,6 +3175,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3211,6 +3295,38 @@
         "Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
         "Organism|Lumen|Feces|Digoxin|Fraction excreted to feces"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin iv, 0.5 mg, 1 h|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Ochs 1978 - 0.5mg - Digoxin - IV - 0.5 mg - Plasma - agg. (n=9)"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "Digoxin iv, 0.5 mg, 1 h|Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
+          "ObservedData": "Ochs 1978 - 0.5mg - Digoxin - IV - 0.5 mg - Urine - agg. (n=9)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin iv, 0.5 mg, 1 h|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Tsutsumi 2002 - 0.5mg iv - Digoxin - IV - 0.5 mg - Plasma - agg. (n=9)"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "Digoxin iv, 0.5 mg, 1 h|Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
+          "ObservedData": "Tsutsumi 2002 - 0.5mg iv - Digoxin - IV - 0.5 mg - Urine - agg. (n=9)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin iv, 0.5 mg, 1 h|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Wagner 1981 - 0.5mg iv 1h - Digoxin - IV - 0.5 mg - Plasma - agg. (n=6)"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "Digoxin iv, 0.5 mg, 1 h|Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
+          "ObservedData": "Wagner 1981 - 0.5mg iv 1h - Digoxin - IV - 0.5 mg - Urine - agg. (n=6)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -3239,11 +3355,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -3621,6 +3737,18 @@
         "Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
         "Organism|Lumen|Feces|Digoxin|Fraction excreted to feces"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin iv, 0.5 mg, 3 h|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Wagner 1981 - 0.5mg iv 3h - Digoxin - IV - 0.5 mg - Plasma - agg. (n=6)"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "Digoxin iv, 0.5 mg, 3 h|Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
+          "ObservedData": "Wagner 1981 - 0.5mg iv 3h - Digoxin - IV - 0.5 mg - Urine - agg. (n=6)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -3649,11 +3777,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -3931,6 +4059,23 @@
         "Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
         "Organism|Lumen|Feces|Digoxin|Fraction excreted to feces"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin iv, 0.5 mg, Bolus|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Ding 2004 - 0.5mg iv placebo - Digoxin - IV - 0.5 mg - Plasma - agg. (n=12)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin iv, 0.5 mg, Bolus|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Wagner 1981 - 0.5mg iv bolus - Digoxin - IV - 0.5 mg - Plasma - agg. (n=6)"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "Digoxin iv, 0.5 mg, Bolus|Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
+          "ObservedData": "Wagner 1981 - 0.5mg iv bolus - Digoxin - IV - 0.5 mg - Urine - agg. (n=6)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -3959,11 +4104,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -4264,6 +4409,13 @@
         "Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
         "Organism|Lumen|Feces|Digoxin|Fraction excreted to feces"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin iv, 0.75 mg, 1h|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Koup 1975 - 0.75mg iv h - Digoxin - IV - 0.75 mg - Plasma - indiv."
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -4292,11 +4444,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -4336,6 +4488,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -4413,6 +4566,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -4527,6 +4681,13 @@
         "Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
         "Organism|Lumen|Feces|Digoxin|Fraction excreted to feces"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin iv, 1.0 mg, 0.5 h|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Greiner 1999 - iv Control (Perpetrator Placebo) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -4555,11 +4716,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -4599,6 +4760,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -4676,6 +4838,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -4791,6 +4954,18 @@
         "Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
         "Organism|Lumen|Feces|Digoxin|Fraction excreted to feces"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin iv, 1.0 mg, 1 h|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Ochs 1978 - 1mg - Digoxin - IV - 1 mg - Plasma - agg. (n=9)"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "Digoxin iv, 1.0 mg, 1 h|Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
+          "ObservedData": "Ochs 1978 - 1mg - Digoxin - IV - 1 mg - Urine - agg. (n=9)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -4819,11 +4994,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -5103,6 +5278,13 @@
         "Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
         "Organism|Lumen|Feces|Digoxin|Fraction excreted to feces"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin iv, 1.0 mg, Bolus|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kramer 1979 - 1mg iv bolus - Digoxin - IV - 1 mg - Serum - agg. (n=12)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -5131,11 +5313,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -5175,6 +5357,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -5252,6 +5435,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -5367,6 +5551,18 @@
         "Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
         "Organism|Lumen|Feces|Digoxin|Fraction excreted to feces"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin iv, 1.5 mg, 1 h|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Ochs 1978 - 1.5mg - Digoxin - IV - 1.5 mg - Plasma - agg. (n=9)"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "Digoxin iv, 1.5 mg, 1 h|Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
+          "ObservedData": "Ochs 1978 - 1.5mg - Digoxin - IV - 1.5 mg - Urine - agg. (n=9)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -5395,11 +5591,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -5689,6 +5885,68 @@
         "Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
         "Organism|Lumen|Feces|Digoxin|Fraction excreted to feces"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po, 0.5 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Becquemont 2001 - 0.5mg po - Digoxin - PO - 0.5 mg - Plasma - agg. (n=12)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po, 0.5 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Jalava 1997 - po Control (Perpetrator Placebo) - Digoxin - PO - 0.5 mg - Serum - agg. (n=10)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po, 0.5 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kirby 2012 - Study 1 - Staggered Administration Control - Digoxin - PO - 0.5 mg - Plasma - agg. (n=16)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po, 0.5 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kirby 2012 - Study 2 - Simultaneous Administration Control - Digoxin - PO - 0.5 mg - Plasma - agg. (n=9)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po, 0.5 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Larsen 2007 - Control (Perpetrator Placebo) - Digoxin - PO - 0.5 mg - Serum - typical (n=10)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po, 0.5 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Ragueneau 1999 - 0.5mg po with placebo - Digoxin - PO - 0.5 mg - Plasma - agg. (n=18)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po, 0.5 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Tayrouz 2003 - 0.5mg po with placebo - Digoxin - PO - 0.5 mg - Plasma - agg. (n=12)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po, 0.5 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Verstuyft 2003 - 0.5mg with Placebo - Digoxin - PO - 0.5 mg - Plasma - agg. (n=12)"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "Digoxin po, 0.5 mg|Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
+          "ObservedData": "Verstuyft 2003 - 0.5mg with placebo - Digoxin - PO - 0.5 mg - Urine - agg. (n=12)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po, 0.5 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Wagner 1981 - 0.5mg po - Digoxin - PO - 0.5 mg - Plasma - agg. (n=6)"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "Digoxin po, 0.5 mg|Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
+          "ObservedData": "Wagner 1981 - 0.5mg po - Digoxin - PO - 0.5 mg - Urine - agg. (n=6)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po, 0.5 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Westphal 2000 - 0.5mg po - Digoxin - PO - 0.5 mg - Plasma - agg. (n=10)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -5717,11 +5975,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -6228,6 +6486,13 @@
         "Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
         "Organism|Lumen|Feces|Digoxin|Fraction excreted to feces"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po, 0.6 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Martin 1997 - 0.6mg po - Digoxin - PO - 0.6 mg - Plasma - agg. (n=12)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -6256,11 +6521,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -6306,6 +6571,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -6383,6 +6649,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -6497,6 +6764,13 @@
         "Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
         "Organism|Lumen|Feces|Digoxin|Fraction excreted to feces"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po, 0.75 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Rengelshausen 2003 - 0.75mg/kg po with placebo - Digoxin - PO - 0.75 mg - Plasma - agg. (n=12)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -6525,11 +6799,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -6575,6 +6849,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -6652,6 +6927,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -6768,6 +7044,23 @@
         "Organism|Kidney|Urine|Digoxin|Fraction excreted to urine",
         "Organism|Lumen|Feces|Digoxin|Fraction excreted to feces"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po, 1.0 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Greiner 1999 - po Control (Perpetrator Placebo) - Digoxin - PO - 1 mg - Plasma - agg. (n=8)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po, 1.0 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Hawyard 1978 - 1mg po - Digoxin - PO - 1 mg - Plasma - agg. (n=5)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po, 1.0 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Oosterhuis 1991 - 1mg po - Digoxin - PO - 1 mg - Plasma - agg. (n=10)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -6796,11 +7089,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -6846,6 +7139,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -6945,6 +7239,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -7144,6 +7439,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po MD, 0.125 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Qiu 2010 - 0.125mg md QD placebo - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -7172,11 +7474,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -7441,6 +7743,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po MD, 0.25 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Friedrich 2011 - 0.25mg po md - Digoxin - PO - 0.25 mg - Plasma - agg. (n=20)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -7469,11 +7778,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -7778,6 +8087,23 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po MD, 0.25 mg, LD|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Johne 1999 - 0.25mg po md with placebo day 15 - Digoxin - PO - 0.25 mg - Plasma - agg. (n=12)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po MD, 0.25 mg, LD|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Johne 1999 - 0.25mg po md with placebo day 6 - Digoxin - PO - 0.25 mg - Plasma - agg. (n=12)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po MD, 0.25 mg, LD|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Vaidyanathan 2008 - 0.25mg po pd - Digoxin - PO - 0.25 mg - Plasma - agg. (n=22)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -7806,11 +8132,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -8199,6 +8525,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po MD, 2x 0.25 mg|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Rodin 1988 - 2x0.25mg po md - Digoxin - PO - 0.25 mg - Plasma - agg. (n=10)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -8227,11 +8560,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -8874,6 +9207,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Digoxin po MD, 2x 0.25 mg - 2|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kirch 1986 - 2x0.25mg po md - Digoxin - PO - 0.25 mg - Plasma - agg. (n=7)"
+        }
+      ],
       "Individual": "European (Pgp modified)",
       "Compounds": [
         {
@@ -8902,11 +9242,11 @@
               "MoleculeName": "P-gp"
             },
             {
-              "Name": "Glomerular Filtration-Steiness (1982)",
-              "SystemicProcessType": "GFR"
+              "MoleculeName": "P-gp"
             },
             {
-              "MoleculeName": "P-gp"
+              "Name": "Glomerular Filtration-Steiness (1982)",
+              "SystemicProcessType": "GFR"
             },
             {
               "Name": "ATP1A2-Katz (2010)",
@@ -9161,22 +9501,22 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            0.00894587,
-            0.6167557,
-            1.823875,
-            2.495611,
-            2.472148,
-            2.249393,
-            1.89079392,
-            1.175602,
-            0.7542386,
-            0.611407,
-            0.5484905,
-            0.4870332,
-            0.244780689
+            8.94587E-06,
+            0.0006167557,
+            0.00182387489,
+            0.002495611,
+            0.002472148,
+            0.002249393,
+            0.00189079391,
+            0.001175602,
+            0.00075423863,
+            0.000611407,
+            0.000548490556,
+            0.0004870332,
+            0.0002447807
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -9543,22 +9883,22 @@
             "MolWeight": 780.93
           },
           "Values": [
-            28.33447,
-            10.42813,
-            6.843225,
-            5.445477,
-            3.893136,
-            4.427041,
-            3.12015,
-            2.724337,
-            2.395779,
-            2.121943,
-            1.933854,
-            1.606214,
-            0.9674942
+            0.02833447,
+            0.0104281306,
+            0.006843225,
+            0.005445477,
+            0.003893136,
+            0.004427041,
+            0.00312015018,
+            0.00272433716,
+            0.002395779,
+            0.002121943,
+            0.001933854,
+            0.00160621409,
+            0.0009674942
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -10028,15 +10368,15 @@
             "MolWeight": 780.93
           },
           "Values": [
-            0.8008056,
-            0.8401039,
-            0.479229331,
-            0.2813652,
-            0.2533274,
-            0.1793476
+            0.000800805632,
+            0.000840103952,
+            0.000479229318,
+            0.000281365181,
+            0.0002533274,
+            0.000179347611
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -10150,28 +10490,28 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            30.8506279,
-            13.79807,
-            10.63935,
-            8.621531,
-            6.899382,
-            5.387041,
-            4.002532,
-            3.163985,
-            2.380284,
-            1.725351,
-            1.17583,
-            0.8114693,
-            0.6260177,
-            0.3459322,
-            0.3776397,
-            0.3062658,
-            0.2742608,
-            0.1702875,
-            0.1362726
+            0.0308506284,
+            0.01379807,
+            0.01063935,
+            0.008621531,
+            0.006899382,
+            0.00538704125,
+            0.004002532,
+            0.003163985,
+            0.002380284,
+            0.001725351,
+            0.00117583,
+            0.000811469334,
+            0.0006260177,
+            0.000345932174,
+            0.0003776397,
+            0.000306265778,
+            0.0002742608,
+            0.0001702875,
+            0.000136272589
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -10210,7 +10550,7 @@
       }
     },
     {
-      "Name": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)",
+      "Name": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -10266,7 +10606,7 @@
         },
         {
           "Name": "Dose",
-          "Value": "250 Âµg"
+          "Value": "250 µg"
         },
         {
           "Name": "Times of Administration [h]",
@@ -10274,7 +10614,7 @@
         },
         {
           "Name": "Formulation",
-          "Value": "digoxin (250 Î¼g) (Glaxo Welcome)"
+          "Value": "digoxin (250 µg) (Glaxo Welcome)"
         },
         {
           "Name": "Food state",
@@ -10289,7 +10629,7 @@
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Path": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|GeometricMean"
+            "Path": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|GeometricMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -10298,28 +10638,28 @@
             "LLOQ": 2E-11
           },
           "Values": [
-            0.912217259,
-            1.27046,
-            1.030102,
-            0.8344988,
-            0.700424969,
-            0.5663604,
-            0.4602587,
-            0.3765437,
-            0.293039024,
-            0.2318936,
-            0.227103621,
-            0.205512092,
-            0.1735546
+            0.000912217249,
+            0.00127046,
+            0.001030102,
+            0.0008344988,
+            0.000700425,
+            0.0005663604,
+            0.000460258685,
+            0.0003765437,
+            0.000293039047,
+            0.0002318936,
+            0.000227103621,
+            0.0002055121,
+            0.0001735546
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)|Time",
+          "Path": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -10466,25 +10806,25 @@
             "MolWeight": 780.93
           },
           "Values": [
-            1.239077,
-            3.74165487,
-            4.531495,
-            4.731976,
-            4.342869,
-            3.589078,
-            3.368392,
-            2.979286,
-            2.566326,
-            2.237578,
-            1.908715,
-            1.636106,
-            1.174644,
-            0.958518,
-            0.9101291,
-            0.8138071
+            0.001239077,
+            0.003741655,
+            0.00453149527,
+            0.004731976,
+            0.004342869,
+            0.00358907785,
+            0.00336839212,
+            0.002979286,
+            0.00256632571,
+            0.002237578,
+            0.001908715,
+            0.001636106,
+            0.0011746441,
+            0.000958518067,
+            0.0009101291,
+            0.00081380707
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -10608,24 +10948,24 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            0.5751392,
-            1.266234,
-            1.785714,
-            1.850649,
-            1.95269,
-            0.9554731,
-            0.5426716,
-            0.482374817,
-            0.3942486,
-            0.3339518,
-            0.2504638,
-            0.2179963,
-            0.1623377,
-            0.1391466,
-            0.1159555
+            0.0005751392,
+            0.001266234,
+            0.00178571406,
+            0.001850649,
+            0.00195269,
+            0.000955473166,
+            0.000542671653,
+            0.0004823748,
+            0.0003942486,
+            0.000333951815,
+            0.0002504638,
+            0.0002179963,
+            0.0001623377,
+            0.000139146592,
+            0.0001159555
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -10747,23 +11087,23 @@
             "MolWeight": 780.93
           },
           "Values": [
-            0.4242778,
-            2.428127,
-            3.339635,
-            3.543882,
-            3.009331,
-            2.521939,
-            1.900782,
-            1.334645,
-            1.012114,
-            0.8546124,
-            0.8146682,
-            0.68762,
-            0.709893,
-            0.6129679
+            0.0004242778,
+            0.002428127,
+            0.00333963474,
+            0.003543882,
+            0.003009331,
+            0.002521939,
+            0.001900782,
+            0.00133464509,
+            0.00101211411,
+            0.000854612445,
+            0.0008146682,
+            0.000687619962,
+            0.000709892949,
+            0.0006129679
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -10885,22 +11225,22 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            0.05,
-            0.472934037,
-            0.6448919,
-            0.8254568,
-            1.014605,
-            1.496003,
-            1.749727,
-            1.737136,
-            1.724671,
-            1.634887,
-            1.098811,
-            0.6795672,
-            0.3049927
+            5.00000024E-05,
+            0.000472934,
+            0.00064489193,
+            0.0008254568,
+            0.001014605,
+            0.001496003,
+            0.00174972706,
+            0.001737136,
+            0.001724671,
+            0.001634887,
+            0.001098811,
+            0.0006795672,
+            0.0003049927
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -11051,22 +11391,22 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            0.3669125,
-            1.114897,
-            1.488738,
-            1.744796,
-            1.661362,
-            1.487868,
-            1.397506,
-            1.258654,
-            1.084867,
-            0.9595701,
-            0.9312799,
-            0.7782784,
-            0.6027524
+            0.0003669125,
+            0.00111489708,
+            0.00148873788,
+            0.001744796,
+            0.001661362,
+            0.00148786791,
+            0.001397506,
+            0.00125865394,
+            0.00108486693,
+            0.0009595701,
+            0.0009312799,
+            0.0007782784,
+            0.0006027524
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -11218,23 +11558,23 @@
             "LLOQ": 2E-10
           },
           "Values": [
-            1.285383,
-            2.564385,
-            2.87761,
-            2.816705,
-            2.686195,
-            2.451276,
-            2.103248,
-            1.798724,
-            1.598608,
-            1.415893,
-            1.433295,
-            1.180974,
-            1.241879,
-            0.62413
+            0.001285383,
+            0.00256438483,
+            0.00287761,
+            0.002816705,
+            0.00268619484,
+            0.00245127617,
+            0.002103248,
+            0.001798724,
+            0.001598608,
+            0.001415893,
+            0.00143329508,
+            0.001180974,
+            0.001241879,
+            0.00062413
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -11356,21 +11696,21 @@
             "LLOQ": 3E-10
           },
           "Values": [
-            0.6115963,
-            0.8378179,
-            1.470228,
-            1.683968,
-            1.608777,
-            1.340946,
-            1.11097,
-            0.9186926,
-            0.7016276,
-            0.7316412,
-            0.6492848,
-            0.5830537
+            0.0006115963,
+            0.0008378179,
+            0.001470228,
+            0.001683968,
+            0.001608777,
+            0.001340946,
+            0.00111096993,
+            0.00091869256,
+            0.0007016276,
+            0.0007316412,
+            0.0006492848,
+            0.000583053741
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -11490,21 +11830,21 @@
             "LLOQ": 3E-10
           },
           "Values": [
-            0.606878,
-            0.9470422,
-            1.392916,
-            1.696416,
-            1.590907,
-            1.333744,
-            1.090558,
-            0.8657546,
-            0.6873037,
-            0.6421145,
-            0.5976869,
-            0.5652574
+            0.000606878,
+            0.0009470422,
+            0.001392916,
+            0.00169641606,
+            0.001590907,
+            0.001333744,
+            0.00109055813,
+            0.000865754555,
+            0.0006873037,
+            0.000642114552,
+            0.0005976869,
+            0.0005652574
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -11623,16 +11963,16 @@
             "MolWeight": 780.93
           },
           "Values": [
-            0.6056988,
-            2.046441,
-            1.074361,
-            0.9508886,
-            0.7723703,
-            0.6584669,
-            0.6148776
+            0.00060569885,
+            0.002046441,
+            0.00107436092,
+            0.0009508886,
+            0.000772370258,
+            0.0006584669,
+            0.0006148776
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -11646,16 +11986,16 @@
           "AuxiliaryType": "Undefined"
         },
         "Values": [
-          42.0,
-          42.0416679,
-          42.0833321,
-          42.125,
-          42.1666679,
-          42.25,
-          42.5
+          1008.0,
+          1009.0,
+          1010.0,
+          1011.0,
+          1012.0,
+          1014.0,
+          1020.0
         ],
         "Dimension": "Time",
-        "Unit": "day(s)"
+        "Unit": "h"
       }
     },
     {
@@ -11747,22 +12087,22 @@
             "LLOQ": 2E-10
           },
           "Values": [
-            0.4102297,
-            0.6451284,
-            1.118019,
-            1.36861,
-            1.202699,
-            1.052451,
-            0.983690441,
-            0.8616903,
-            0.6991095,
-            0.5772429,
-            0.5558476,
-            0.6002059,
-            0.5167015
+            0.000410229724,
+            0.0006451284,
+            0.001118019,
+            0.00136861,
+            0.00120269891,
+            0.001052451,
+            0.0009836905,
+            0.000861690263,
+            0.0006991095,
+            0.0005772429,
+            0.0005558476,
+            0.0006002059,
+            0.0005167015
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -11882,17 +12222,17 @@
             "MolWeight": 780.93
           },
           "Values": [
-            1.105597,
-            1.461607,
-            0.9245979,
-            1.011454,
-            0.5734525,
-            0.6945911,
-            0.3694415,
-            0.1214939
+            0.001105597,
+            0.00146160694,
+            0.0009245979,
+            0.001011454,
+            0.000573452446,
+            0.0006945911,
+            0.0003694415,
+            0.0001214939
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -12007,15 +12347,15 @@
             "MolWeight": 780.93
           },
           "Values": [
-            0.2597739,
-            0.4516192,
-            0.8491048,
-            0.6883073,
-            0.6122102,
-            0.4468236
+            0.0002597739,
+            0.0004516192,
+            0.000849104836,
+            0.0006883073,
+            0.00061221025,
+            0.0004468236
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -12128,17 +12468,17 @@
             "MolWeight": 780.93
           },
           "Values": [
-            0.1005306,
-            0.1205764,
-            0.1092244,
-            0.5993254,
-            0.6320839,
-            0.2019421,
-            0.08167702,
-            0.07068621
+            0.000100530604,
+            0.0001205764,
+            0.0001092244,
+            0.0005993254,
+            0.000632083858,
+            0.000201942108,
+            8.167702E-05,
+            7.068621E-05
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -12253,16 +12593,16 @@
             "MolWeight": 780.93
           },
           "Values": [
-            0.1404927,
-            0.3059309,
-            0.5186712,
-            0.8311933,
-            0.8753158,
-            0.7621393,
-            0.4078511
+            0.000140492688,
+            0.0003059309,
+            0.000518671237,
+            0.000831193349,
+            0.000875315745,
+            0.0007621393,
+            0.0004078511
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -12376,16 +12716,16 @@
             "MolWeight": 780.93
           },
           "Values": [
-            0.1706964,
-            0.1823823,
-            0.2822235,
-            0.3551103,
-            0.5282238,
-            0.4301386,
-            0.3791156
+            0.000170696381,
+            0.0001823823,
+            0.000282223482,
+            0.000355110271,
+            0.0005282238,
+            0.000430138578,
+            0.0003791156
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -12499,14 +12839,14 @@
             "MolWeight": 780.93
           },
           "Values": [
-            0.5765198,
-            0.7348366,
-            0.7204385,
-            1.135428,
-            0.4940135
+            0.000576519757,
+            0.000734836562,
+            0.0007204385,
+            0.001135428,
+            0.0004940135
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -12618,16 +12958,16 @@
             "MolWeight": 780.93
           },
           "Values": [
-            0.3313605,
-            0.3291071,
-            0.1009148,
-            0.09197019,
-            0.08205178,
-            0.1016814,
-            0.09699778
+            0.0003313605,
+            0.0003291071,
+            0.000100914796,
+            9.19701852E-05,
+            8.20517744E-05,
+            0.0001016814,
+            9.69977846E-05
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -12773,23 +13113,23 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            0.05,
-            1.49479,
-            3.77226067,
-            4.606188,
-            4.971038,
-            4.970594,
-            4.865804,
-            4.377601,
-            3.715528,
-            3.244676,
-            2.442223,
-            1.602445,
-            0.966438353,
-            0.7303871
+            5.00000024E-05,
+            0.00149479,
+            0.00377226062,
+            0.004606188,
+            0.00497103762,
+            0.004970594,
+            0.004865804,
+            0.00437760074,
+            0.00371552818,
+            0.00324467616,
+            0.002442223,
+            0.00160244491,
+            0.0009664384,
+            0.0007303871
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -13111,23 +13451,23 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            0.05,
-            12.24057,
-            18.53773,
-            24.55189,
-            16.48585,
-            14.08019,
-            12.09906,
-            8.278302,
-            6.438679,
-            5.165094,
-            3.60849,
-            1.910377,
-            1.20283,
-            1.061321
+            5.00000024E-05,
+            0.01224057,
+            0.01853773,
+            0.0245518889,
+            0.01648585,
+            0.0140801892,
+            0.01209906,
+            0.008278303,
+            0.00643867953,
+            0.00516509358,
+            0.00360848987,
+            0.001910377,
+            0.00120283,
+            0.001061321
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -13445,19 +13785,19 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            0.05,
-            0.1854545,
-            0.76,
-            1.101818,
-            1.090909,
-            0.8836364,
-            0.7927273,
-            0.7236364,
-            0.5127273,
-            0.32
+            5.00000024E-05,
+            0.0001854545,
+            0.00076,
+            0.00110181794,
+            0.001090909,
+            0.0008836364,
+            0.0007927273,
+            0.00072363636,
+            0.0005127273,
+            0.00032
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -13602,19 +13942,19 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            0.05,
-            0.1890909,
-            0.5527273,
-            0.7018182,
-            0.64,
-            0.64,
-            0.5927272,
-            0.5527273,
-            0.4436364,
-            0.2836364
+            5.00000024E-05,
+            0.00018909089,
+            0.0005527273,
+            0.0007018182,
+            0.00064,
+            0.00064,
+            0.0005927272,
+            0.0005527273,
+            0.000443636382,
+            0.0002836364
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -13759,19 +14099,19 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            0.05,
-            0.8727273,
-            1.56,
-            1.709091,
-            1.618182,
-            1.312727,
-            1.069091,
-            0.8,
-            0.52,
-            0.3890909
+            5.00000024E-05,
+            0.000872727251,
+            0.00155999989,
+            0.001709091,
+            0.00161818194,
+            0.00131272688,
+            0.00106909091,
+            0.000800000038,
+            0.00052,
+            0.000389090885
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -14480,27 +14820,27 @@
             "MolWeight": 780.93
           },
           "Values": [
-            0.2814046,
-            0.6921389,
-            0.8871197,
-            1.015174,
-            1.121529,
-            1.129996,
-            0.9079854,
-            0.5898876,
-            0.4542654,
-            0.3676077,
-            0.3358566,
-            0.2864542,
-            0.2540434,
-            0.2069907,
-            0.2040873,
-            0.2026509,
-            0.1835708,
-            0.1822788
+            0.000281404617,
+            0.0006921389,
+            0.000887119735,
+            0.00101517409,
+            0.001121529,
+            0.001129996,
+            0.000907985435,
+            0.0005898876,
+            0.000454265362,
+            0.000367607718,
+            0.0003358566,
+            0.0002864542,
+            0.0002540434,
+            0.0002069907,
+            0.000204087308,
+            0.0002026509,
+            0.0001835708,
+            0.0001822788
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -14835,22 +15175,22 @@
             "MolWeight": 780.93
           },
           "Values": [
-            0.3579696,
-            0.4718958,
-            0.6004288,
-            0.9184952,
-            1.058316,
-            0.7859313,
-            0.5795313,
-            0.3761704,
-            0.2793533,
-            0.20599,
-            0.1642043,
-            0.1318257,
-            0.1254474
+            0.0003579696,
+            0.0004718958,
+            0.000600428844,
+            0.0009184952,
+            0.001058316,
+            0.000785931246,
+            0.0005795313,
+            0.0003761704,
+            0.0002793533,
+            0.00020599,
+            0.0001642043,
+            0.0001318257,
+            0.0001254474
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -15608,15 +15948,15 @@
             "MolWeight": 780.93
           },
           "Values": [
-            0.416293,
-            1.530194,
-            2.138715,
-            1.973692,
-            1.258595,
-            0.9629297
+            0.000416293,
+            0.00153019407,
+            0.002138715,
+            0.001973692,
+            0.001258595,
+            0.000962929742
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -15752,15 +16092,15 @@
             "MolWeight": 780.93
           },
           "Values": [
-            0.06562033,
-            0.5572496,
-            0.8597907,
-            0.9423019,
-            0.8357249,
-            0.7738416
+            6.56203338E-05,
+            0.0005572496,
+            0.000859790656,
+            0.0009423019,
+            0.0008357249,
+            0.0007738416
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -15896,15 +16236,15 @@
             "MolWeight": 780.93
           },
           "Values": [
-            0.1068759,
-            0.6088191,
-            1.028251,
-            1.217339,
-            1.028251,
-            0.8494768
+            0.000106875894,
+            0.000608819129,
+            0.001028251,
+            0.001217339,
+            0.001028251,
+            0.000849476841
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -16040,15 +16380,15 @@
             "MolWeight": 780.93
           },
           "Values": [
-            0.1275037,
-            0.8082212,
-            1.145142,
-            1.193274,
-            1.007623,
-            0.8150972
+            0.000127503692,
+            0.00080822123,
+            0.001145142,
+            0.001193274,
+            0.001007623,
+            0.0008150972
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -16932,25 +17272,25 @@
             "LLOQ": 5E-11
           },
           "Values": [
-            4.21,
-            5.88,
-            6.8,
-            6.36,
-            3.47,
-            2.53,
-            1.93,
-            1.57,
-            0.86,
-            0.69,
-            0.48999998,
-            0.4,
-            0.22,
-            0.14,
-            0.083,
-            0.058
+            0.00421,
+            0.00588,
+            0.0068,
+            0.00636,
+            0.00347,
+            0.00253,
+            0.00192999991,
+            0.00157,
+            0.000860000029,
+            0.00069,
+            0.00049,
+            0.000400000019,
+            0.00022,
+            0.00014,
+            8.3E-05,
+            5.79999978E-05
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -17074,24 +17414,24 @@
             "LLOQ": 5E-11
           },
           "Values": [
-            2.21,
-            2.87,
-            2.63,
-            1.84,
-            1.45,
-            1.19,
-            0.979999959,
-            0.6,
-            0.48999998,
-            0.45,
-            0.34,
-            0.23,
-            0.13,
-            0.0875,
-            0.0375
+            0.00221,
+            0.00286999973,
+            0.00263000024,
+            0.00184,
+            0.00145,
+            0.0011900001,
+            0.00098,
+            0.0006,
+            0.00049,
+            0.00045,
+            0.00034,
+            0.00023,
+            0.00013,
+            8.75E-05,
+            3.75E-05
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -17214,23 +17554,23 @@
             "LLOQ": 5E-11
           },
           "Values": [
-            25.9,
-            9.68,
-            5.52,
-            3.77,
-            2.84,
-            1.79,
-            1.3,
-            0.96,
-            0.75,
-            0.45,
-            0.25,
-            0.14,
-            0.088,
-            0.052
+            0.0259,
+            0.00968,
+            0.00552,
+            0.00376999984,
+            0.00284,
+            0.00178999989,
+            0.0013,
+            0.00096,
+            0.00075,
+            0.00045,
+            0.000249999983,
+            0.00014,
+            8.799999E-05,
+            5.20000031E-05
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -17352,22 +17692,22 @@
             "LLOQ": 5E-11
           },
           "Values": [
-            0.52,
-            1.83,
-            2.83,
-            2.1,
-            1.03,
-            0.6,
-            0.54,
-            0.365,
-            0.28,
-            0.175,
-            0.12,
-            0.056,
-            0.0310000014
+            0.00052,
+            0.00183000008,
+            0.00283,
+            0.0021,
+            0.00102999993,
+            0.0006,
+            0.000540000037,
+            0.000365,
+            0.00028,
+            0.000175,
+            0.00012,
+            5.60000044E-05,
+            3.1E-05
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -17635,21 +17975,21 @@
             "MolWeight": 780.93
           },
           "Values": [
-            4.722863,
-            5.59142,
-            6.408367,
-            8.417402,
-            10.16156,
-            3.414212,
-            2.25345,
-            1.323382,
-            0.8185901,
-            0.7145726,
-            0.4068934,
-            0.3046044
+            0.004722863,
+            0.00559142,
+            0.00640836731,
+            0.008417401,
+            0.01016156,
+            0.003414212,
+            0.00225344975,
+            0.001323382,
+            0.0008185901,
+            0.0007145726,
+            0.0004068934,
+            0.0003046044
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -17768,32 +18108,32 @@
             "MolWeight": 780.93
           },
           "Values": [
-            63.8000031,
-            35.5,
-            30.2000027,
-            21.0,
-            16.4,
-            17.3,
-            13.9,
-            11.4,
-            8.57,
-            7.06,
-            5.74,
-            2.79,
-            1.94999993,
-            1.64,
-            1.07,
-            0.86,
-            0.6,
-            0.59,
-            0.58,
-            0.38,
-            0.29,
-            0.23,
-            0.22
+            0.0638,
+            0.0355,
+            0.0302000027,
+            0.021,
+            0.0164,
+            0.0173,
+            0.0139,
+            0.0114,
+            0.00857,
+            0.00706,
+            0.00573999947,
+            0.00279,
+            0.00195,
+            0.00164,
+            0.00107000011,
+            0.000860000029,
+            0.0006,
+            0.00059,
+            0.00058,
+            0.00038,
+            0.00029,
+            0.00023,
+            0.00022
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -17923,18 +18263,18 @@
             "MolWeight": 780.93
           },
           "Values": [
-            8.99179,
-            5.029658,
-            2.715477,
-            1.826159,
-            0.7218742,
-            0.6399615,
-            0.4854604,
-            0.4427452,
-            0.3311311
+            0.008991789,
+            0.005029658,
+            0.002715477,
+            0.001826159,
+            0.0007218742,
+            0.00063996145,
+            0.0004854604,
+            0.0004427452,
+            0.0003311311
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -18050,18 +18390,18 @@
             "MolWeight": 780.93
           },
           "Values": [
-            8.556727,
-            4.619717,
-            2.32356,
-            1.677318,
-            0.9651957,
-            0.6354434,
-            0.5673436,
-            0.3735147,
-            0.2754229
+            0.008556727,
+            0.004619717,
+            0.00232356,
+            0.00167731789,
+            0.0009651957,
+            0.0006354434,
+            0.0005673436,
+            0.000373514718,
+            0.0002754229
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -18178,25 +18518,25 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            31.3372078,
-            18.02326,
-            12.90698,
-            13.0814,
-            9.94186,
-            7.848837,
-            5.0,
-            4.244186,
-            3.081395,
-            2.732558,
-            1.91860509,
-            1.337209,
-            0.9302326,
-            0.755814,
-            0.6976744,
-            0.4651163
+            0.03133721,
+            0.01802326,
+            0.01290698,
+            0.0130814,
+            0.00994186,
+            0.007848837,
+            0.005,
+            0.004244186,
+            0.00308139483,
+            0.002732558,
+            0.00191860506,
+            0.001337209,
+            0.0009302326,
+            0.000755814,
+            0.0006976744,
+            0.0004651163
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -18320,26 +18660,26 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            0.1267606,
-            1.40493,
-            2.31338,
-            2.651408,
-            2.809859,
-            2.757042,
-            2.693662,
-            2.588028,
-            2.028169,
-            1.679577,
-            1.447183,
-            1.066901,
-            0.6126761,
-            0.3485915,
-            0.2852113,
-            0.242957711,
-            0.1707114
+            0.0001267606,
+            0.00140492991,
+            0.00231338,
+            0.002651408,
+            0.002809859,
+            0.002757042,
+            0.002693662,
+            0.002588028,
+            0.00202816888,
+            0.001679577,
+            0.00144718308,
+            0.001066901,
+            0.0006126761,
+            0.0003485915,
+            0.0002852113,
+            0.000242957714,
+            0.0001707114
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -19054,21 +19394,21 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            0.7742805,
-            1.554856,
-            1.806655,
-            1.93255413,
-            1.718525,
-            1.542266,
-            0.9946043,
-            0.5877036,
-            0.46759668,
-            0.3597748,
-            0.3327477,
-            0.1904048
+            0.000774280459,
+            0.001554856,
+            0.00180665508,
+            0.00193255406,
+            0.00171852508,
+            0.001542266,
+            0.0009946043,
+            0.0005877036,
+            0.0004675967,
+            0.0003597748,
+            0.0003327477,
+            0.0001904048
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -19263,7 +19603,7 @@
       }
     },
     {
-      "Name": "Eckermann 2012 - 0.25mg po with roflumilast - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)",
+      "Name": "Eckermann 2012 - 0.25mg po with roflumilast - Digoxin - PO - 250 µg - Plasma - agg. (n=16)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -19319,7 +19659,7 @@
         },
         {
           "Name": "Dose",
-          "Value": "250 Âµg"
+          "Value": "250 µg"
         },
         {
           "Name": "Times of Administration [h]",
@@ -19327,7 +19667,7 @@
         },
         {
           "Name": "Formulation",
-          "Value": "digoxin (250 Î¼g) (Glaxo Welcome)"
+          "Value": "digoxin (250 µg) (Glaxo Welcome)"
         },
         {
           "Name": "Food state",
@@ -19342,7 +19682,7 @@
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Path": "Eckermann 2012 - 0.25mg po with roflumilast - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|GeometricMean"
+            "Path": "Eckermann 2012 - 0.25mg po with roflumilast - Digoxin - PO - 250 µg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|GeometricMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -19372,7 +19712,7 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "Eckermann 2012 - 0.25mg po with roflumilast - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)|Time",
+          "Path": "Eckermann 2012 - 0.25mg po with roflumilast - Digoxin - PO - 250 µg - Plasma - agg. (n=16)|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -19857,22 +20197,22 @@
             "LLOQ": 2E-11
           },
           "Values": [
-            0.3450855,
-            1.13782,
-            1.496795,
-            1.571581,
-            1.706197,
-            1.489316,
-            1.429487,
-            1.235043,
-            0.9732907,
-            0.599359,
-            0.3899573,
-            0.3301282,
-            0.3226496
+            0.0003450855,
+            0.00113782007,
+            0.001496795,
+            0.001571581,
+            0.001706197,
+            0.001489316,
+            0.001429487,
+            0.001235043,
+            0.000973290647,
+            0.000599358929,
+            0.0003899573,
+            0.0003301282,
+            0.0003226496
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -21294,20 +21634,20 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            1.000609,
-            1.705404,
-            2.071895,
-            2.234158,
-            2.037297,
-            1.918426,
-            1.652009,
-            1.49119,
-            1.148463,
-            0.953642368,
-            0.8808715
+            0.001000609,
+            0.001705404,
+            0.002071895,
+            0.00223415787,
+            0.002037297,
+            0.00191842613,
+            0.001652009,
+            0.00149118993,
+            0.001148463,
+            0.00095364236,
+            0.0008808715
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -21782,22 +22122,22 @@
             "LLOQ": 2E-10
           },
           "Values": [
-            0.479123175,
-            0.6639175,
-            1.09923,
-            1.177582,
-            1.089964,
-            1.071244,
-            0.9179242,
-            0.8272436,
-            0.5832431,
-            0.5553265,
-            0.3898726,
-            0.4436297,
-            0.460334
+            0.000479123177,
+            0.000663917453,
+            0.00109923,
+            0.00117758207,
+            0.00108996406,
+            0.001071244,
+            0.0009179242,
+            0.0008272436,
+            0.0005832431,
+            0.0005553265,
+            0.0003898726,
+            0.000443629717,
+            0.000460334
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -21944,18 +22284,18 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            0.2244461,
-            0.9411999,
-            1.079492,
-            0.9623109,
-            0.8143604,
-            0.7094911,
-            0.5861602,
-            0.4348746,
-            0.2646154
+            0.0002244461,
+            0.0009411999,
+            0.00107949192,
+            0.0009623109,
+            0.000814360334,
+            0.0007094911,
+            0.000586160168,
+            0.0004348746,
+            0.000264615373
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -22098,18 +22438,18 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            0.2767538,
-            0.7873495,
-            0.999492168,
-            0.9807724,
-            0.7897492,
-            0.6910295,
-            0.6107714,
-            0.4441096,
-            0.2830769
+            0.000276753824,
+            0.000787349534,
+            0.0009994921,
+            0.0009807723,
+            0.0007897492,
+            0.000691029534,
+            0.0006107714,
+            0.000444109581,
+            0.000283076923
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -22252,18 +22592,18 @@
             "LLOQ": 1E-10
           },
           "Values": [
-            0.2003082,
-            0.6995378,
-            0.8782743,
-            0.779661,
-            0.6409861,
-            0.5793529,
-            0.4992296,
-            0.4622496,
-            0.2927581
+            0.0002003082,
+            0.0006995378,
+            0.0008782743,
+            0.000779661,
+            0.0006409861,
+            0.0005793529,
+            0.0004992296,
+            0.0004622496,
+            0.0002927581
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -22409,22 +22749,22 @@
             "MolWeight": 780.93
           },
           "Values": [
-            18.72708,
-            6.192271,
-            3.650838,
-            2.666604,
-            2.032961,
-            2.345009,
-            1.97572207,
-            1.712815,
-            1.517041,
-            1.432818,
-            1.215831,
-            0.8880534,
-            0.7428818
+            0.018727079,
+            0.006192271,
+            0.00365083781,
+            0.002666604,
+            0.002032961,
+            0.002345009,
+            0.00197572215,
+            0.001712815,
+            0.00151704089,
+            0.00143281813,
+            0.001215831,
+            0.0008880534,
+            0.000742881733
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -22739,22 +23079,22 @@
             "MolWeight": 780.93
           },
           "Values": [
-            7.837463,
-            3.548048,
-            2.262771,
-            1.474328,
-            1.181599,
-            1.173193,
-            1.069201,
-            0.8880534,
-            0.8817355,
-            0.7809534,
-            0.6039448,
-            0.566357,
-            0.3907059
+            0.007837463,
+            0.003548048,
+            0.002262771,
+            0.001474328,
+            0.001181599,
+            0.001173193,
+            0.00106920092,
+            0.0008880534,
+            0.0008817355,
+            0.0007809534,
+            0.000603944762,
+            0.000566357,
+            0.0003907059
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -22908,25 +23248,25 @@
             "LLOQ": 2E-10
           },
           "Values": [
-            6.150042,
-            8.136418,
-            9.097934,
-            3.12008,
-            1.797107,
-            1.264172,
-            0.987521648,
-            0.8398067,
-            0.6707942,
-            0.6298414,
-            0.6121024,
-            0.4911602,
-            0.5191348,
-            0.2795341,
-            0.2595674,
-            0.2396007
+            0.006150042,
+            0.008136419,
+            0.009097934,
+            0.00312007987,
+            0.001797107,
+            0.001264172,
+            0.0009875216,
+            0.0008398067,
+            0.0006707942,
+            0.0006298414,
+            0.0006121024,
+            0.0004911602,
+            0.000519134861,
+            0.000279534084,
+            0.00025956743,
+            0.0002396007
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -23400,22 +23740,22 @@
             "LLOQ": 5E-11
           },
           "Values": [
-            0.2396825,
-            0.2396825,
-            0.480952382,
-            0.5793651,
-            0.5222222,
-            0.4396825,
-            0.3904762,
-            0.3095238,
-            0.2809524,
-            0.2904762,
-            0.2714286,
-            0.2698413,
-            0.2301587
+            0.0002396825,
+            0.0002396825,
+            0.000480952382,
+            0.000579365063,
+            0.0005222222,
+            0.0004396825,
+            0.0003904762,
+            0.0003095238,
+            0.0002809524,
+            0.0002904762,
+            0.0002714286,
+            0.000269841315,
+            0.0002301587
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -23609,7 +23949,7 @@
         {
           "Name": "0.25 mg",
           "Classifiables": [
-            "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)",
+            "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)",
             "Friedrich 2011 - 0.25mg po md - Digoxin - PO - 0.25 mg - Plasma - agg. (n=20)",
             "Johne 1999 - 0.25mg po md with placebo day 6 - Digoxin - PO - 0.25 mg - Plasma - agg. (n=12)",
             "Johne 1999 - 0.25mg po md with placebo day 15 - Digoxin - PO - 0.25 mg - Plasma - agg. (n=12)",
@@ -23618,7 +23958,7 @@
             "Gurley 2008b - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
             "Gurley 2008b - with Perpetrator (Rifampicin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
             "Gurley 2008b - with Perpetrator (Clarithomycin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
-            "Eckermann 2012 - 0.25mg po with roflumilast - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)",
+            "Eckermann 2012 - 0.25mg po with roflumilast - Digoxin - PO - 250 µg - Plasma - agg. (n=16)",
             "Friedrich 2011 - 0.25mg po md with linagliptin - Digoxin - PO - 0.25 mg - Plasma - agg. (n=20)",
             "Rodin 1988 - 2x0.25mg po md - Digoxin - PO - 0.25 mg - Plasma - agg. (n=10)",
             "Rodin 1988 - 2x0.25mg po md with verapamil - Digoxin - PO - 0.25 mg - Plasma - agg. (n=10)",
@@ -23714,10 +24054,10 @@
             "Tsutsumi 2002 - 0.5mg iv - Digoxin - IV - 0.5 mg - Urine - agg. (n=9)",
             "Tsutsumi 2002 - 0.5mg iv with erythromycin - Digoxin - IV - 0.5 mg - Urine - agg. (n=9)",
             "Tsutsumi 2002 - 0.5mg iv with clarithromycin - Digoxin - IV - 0.5 mg - Urine - agg. (n=9)",
+            "Ochs 1978 - 0.5mg - Digoxin - IV - 0.5 mg - Plasma - agg. (n=9)",
             "Tsutsumi 2002 - 0.5mg iv - Digoxin - IV - 0.5 mg - Plasma - agg. (n=9)",
             "Tsutsumi 2002 - 0.5mg iv with erythromycin - Digoxin - IV - 0.5 mg - Plasma - agg. (n=9)",
-            "Tsutsumi 2002 - 0.5mg iv with clarithromycin - Digoxin - IV - 0.5 mg - Plasma - agg. (n=9)",
-            "Ochs 1978 - 0.5mg - Digoxin - IV - 0.5 mg - Plasma - agg. (n=9)"
+            "Tsutsumi 2002 - 0.5mg iv with clarithromycin - Digoxin - IV - 0.5 mg - Plasma - agg. (n=9)"
           ]
         },
         {

@@ -28,7 +28,7 @@
 
 **Hinderling 1984** Hinderling, P.H. Kinetics of partitioning and binding of digoxin and its analogues in the subcompartments of blood. J. Pharm. Sci. 73, 1042–53 (1984).
 
-**Jalava 1997 ** Jalava, K.M., Partanen, J. & Neuvonen, P.J. Itraconazole decreases renal clearance of digoxin. Ther. Drug Monit. 19, 609–13 (1997). 
+**Jalava 1997** Jalava, K.M., Partanen, J. & Neuvonen, P.J. Itraconazole decreases renal clearance of digoxin. Ther. Drug Monit. 19, 609–13 (1997). 
 
 **Johne 1999** Johne, A. et al. Pharmacokinetic interaction of digoxin with an herbal extract from St John’s wort (Hypericum perforatum). Clin. Pharmacol. Ther. 66, 338–45 (1999). 
 

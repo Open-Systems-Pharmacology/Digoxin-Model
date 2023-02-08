@@ -227,7 +227,7 @@
         ],
         "GOFMergedPlots": [
             {
-                "Title": "Goodness of fit plor for concentration in plasma.",
+                "Title": "Goodness of fit plot for concentration in plasma.",
                 "SectionReference": "diagnostics-plots",
                 "Artifacts": [
                     "Plot",

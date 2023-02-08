@@ -3,15 +3,11 @@ The PBPK model for digoxin was developed with clinical pharmacokinetic data cove
 During the model-fitting, the following parameters were estimated (all other parameters were fixed to reported values):
 
 * Lipophilicity
-* Fraction unbound
-* ATP1A2 Kd
-* ATP1A2 Koff
-* P-gp Km
-* P-gp Kcat
-* Clhep
+* ATP1A2 Dissociation constant (Kd)
+* P-gp catalytic rate constant (Kcat)
+* Hepatic Clearance (CLhep)
 * Specific intestinal permeability (transcellular)
 * Specific organ permeability 
-* Formulation kinetics : Weibull function parameters (Dissolution shape and Dissolution time).
 
 The fit resulted in an adequate description of the clinical data. Additional implementation of transport by OATP (4C1) did not improve the model performance and was not used in the final model.
 

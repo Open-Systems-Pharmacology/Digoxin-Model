@@ -26,7 +26,6 @@
 #' createQualificationReport("C:/Software/QualificationRunner9.1.1", versionInfo = versionInfo)
 #' 
 
-
 createQualificationReport <- function(qualificationRunnerFolder,
                                       pkSimPortableFolder = NULL,
                                       createWordReport = TRUE,
@@ -163,3 +162,10 @@ createQualificationReport <- function(qualificationRunnerFolder,
   }
   return(invisible())
 }
+
+createQualificationReport(qualificationRunnerFolder,
+                          pkSimPortableFolder = pkSimPortableFolder,
+                          createWordReport = FALSE,
+                          maxSimulationsPerCore = 3,
+                          versionInfo = NULL,
+                          wordConversionTemplate = NULL)

@@ -26,7 +26,6 @@
 #' createQualificationReport("C:/Software/QualificationRunner9.1.1", versionInfo = versionInfo)
 #' 
 
-
 createQualificationReport <- function(qualificationRunnerFolder,
                                       pkSimPortableFolder = NULL,
                                       createWordReport = TRUE,
@@ -148,12 +147,11 @@ createQualificationReport <- function(qualificationRunnerFolder,
   #  workflow$inactivateTasks("plotComparisonTimeProfile")
   #  workflow$inactivateTasks("plotGOFMerged")
   #  workflow$inactivateTasks("plotPKRatio")
-    workflow$inactivateTasks("plotDDIRatio")
+  #  workflow$inactivateTasks("plotDDIRatio")
   
   #' Run the `QualificatitonWorklfow`
-   #workflow$plotPKRatio$settings$units$<PK parameter name> <- <PK parameter unit>
    workflow$plotPKRatio$settings$units$C_max <- "ng/mL"
-      workflow$runWorkflow()
+   workflow$runWorkflow()
   
 
   #' Print timer tracked time if option `recordWorkflowTime` is set to TRUE

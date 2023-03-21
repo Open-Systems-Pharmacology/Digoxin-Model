@@ -1837,7 +1837,7 @@
       "Name": "Digoxin po, 0.25 mg",
       "Model": "4Comp",
       "ObservedData": [
-        "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)",
+        "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)",
         "Gurley 2008 - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
       ],
       "Solver": {},
@@ -1973,7 +1973,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -1994,9 +1993,9 @@
               }
             },
             {
-              "Name": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)-Digoxin-Peripheral Venous Blood-Plasma-GeometricMean",
-              "X": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)|Time",
-              "Y": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|GeometricMean",
+              "Name": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)-Digoxin-Peripheral Venous Blood-Plasma-GeometricMean",
+              "X": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)|Time",
+              "Y": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|GeometricMean",
               "CurveOptions": {
                 "Color": "#9BBB59",
                 "LegendIndex": 7,
@@ -2062,7 +2061,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2083,9 +2081,9 @@
               }
             },
             {
-              "Name": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)-Digoxin-Peripheral Venous Blood-Plasma-GeometricMean",
-              "X": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)|Time",
-              "Y": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|GeometricMean",
+              "Name": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)-Digoxin-Peripheral Venous Blood-Plasma-GeometricMean",
+              "X": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)|Time",
+              "Y": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|GeometricMean",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 8,
@@ -2732,7 +2730,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2821,7 +2818,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3019,7 +3015,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3097,7 +3092,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -4336,7 +4330,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -4414,7 +4407,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -4601,7 +4593,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -4679,7 +4670,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -5173,7 +5163,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -5251,7 +5240,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -6306,7 +6294,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -6384,7 +6371,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -6577,7 +6563,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -6655,7 +6640,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -6850,7 +6834,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -6950,7 +6933,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -10216,7 +10198,7 @@
       }
     },
     {
-      "Name": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)",
+      "Name": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -10272,7 +10254,7 @@
         },
         {
           "Name": "Dose",
-          "Value": "250 Âµg"
+          "Value": "250 µg"
         },
         {
           "Name": "Times of Administration [h]",
@@ -10295,7 +10277,7 @@
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Path": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|GeometricMean"
+            "Path": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|GeometricMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -10325,7 +10307,7 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)|Time",
+          "Path": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -19269,7 +19251,7 @@
       }
     },
     {
-      "Name": "Eckermann 2012 - 0.25mg po with roflumilast - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)",
+      "Name": "Eckermann 2012 - 0.25mg po with roflumilast - Digoxin - PO - 250 µg - Plasma - agg. (n=16)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -19325,7 +19307,7 @@
         },
         {
           "Name": "Dose",
-          "Value": "250 Âµg"
+          "Value": "250 µg"
         },
         {
           "Name": "Times of Administration [h]",
@@ -19348,7 +19330,7 @@
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Path": "Eckermann 2012 - 0.25mg po with roflumilast - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|GeometricMean"
+            "Path": "Eckermann 2012 - 0.25mg po with roflumilast - Digoxin - PO - 250 µg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|GeometricMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -19378,7 +19360,7 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Path": "Eckermann 2012 - 0.25mg po with roflumilast - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)|Time",
+          "Path": "Eckermann 2012 - 0.25mg po with roflumilast - Digoxin - PO - 250 µg - Plasma - agg. (n=16)|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -23615,7 +23597,7 @@
         {
           "Name": "0.25 mg",
           "Classifiables": [
-            "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)",
+            "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)",
             "Friedrich 2011 - 0.25mg po md - Digoxin - PO - 0.25 mg - Plasma - agg. (n=20)",
             "Johne 1999 - 0.25mg po md with placebo day 6 - Digoxin - PO - 0.25 mg - Plasma - agg. (n=12)",
             "Johne 1999 - 0.25mg po md with placebo day 15 - Digoxin - PO - 0.25 mg - Plasma - agg. (n=12)",
@@ -23624,7 +23606,7 @@
             "Gurley 2008b - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
             "Gurley 2008b - with Perpetrator (Rifampicin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
             "Gurley 2008b - with Perpetrator (Clarithomycin) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
-            "Eckermann 2012 - 0.25mg po with roflumilast - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)",
+            "Eckermann 2012 - 0.25mg po with roflumilast - Digoxin - PO - 250 µg - Plasma - agg. (n=16)",
             "Friedrich 2011 - 0.25mg po md with linagliptin - Digoxin - PO - 0.25 mg - Plasma - agg. (n=20)",
             "Rodin 1988 - 2x0.25mg po md - Digoxin - PO - 0.25 mg - Plasma - agg. (n=10)",
             "Rodin 1988 - 2x0.25mg po md with verapamil - Digoxin - PO - 0.25 mg - Plasma - agg. (n=10)",

@@ -7,7 +7,7 @@ Whole-body PBPK model of digoxin
 
 This repository contains:
 
-- a [PK-Sim snapshot (*.json) file](https://docs.open-systems-pharmacology.org/working-with-pk-sim/pk-sim-documentation/importing-exporting-project-data-models#exporting-project-to-snapshot-loading-project-from-snapshot)  of the current PBPK model
+- the PK-Sim snapshot (*.json) file of the PBPK model ([what is a "PK-Sim snapshot"](https://docs.open-systems-pharmacology.org/working-with-pk-sim/pk-sim-documentation/importing-exporting-project-data-models#exporting-project-to-snapshot-loading-project-from-snapshot))
 - static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
 - an evaluation plan (evaluation-plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
 

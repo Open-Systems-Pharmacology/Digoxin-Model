@@ -1,4 +1,4 @@
-#' @title Digoxin Evaluation report
+#' @title createQualificationReport
 #' @description Run a qualification workflow to create a qualification report.
 #' @param qualificationRunnerFolder Folder where QualificationRunner.exe is located
 #' @param pkSimPortableFolder Folder where PK-Sim is located.
@@ -25,7 +25,6 @@
 #' versionInfo <- QualificationVersionInfo$new("1.1", "2.2","3.3")
 #' createQualificationReport("C:/Software/QualificationRunner9.1.1", versionInfo = versionInfo)
 #' 
-
 createQualificationReport <- function(qualificationRunnerFolder,
                                       pkSimPortableFolder = NULL,
                                       createWordReport = TRUE,
@@ -58,7 +57,7 @@ createQualificationReport <- function(qualificationRunnerFolder,
   #' `workingDirectory`: current directory is used as default working directory
   workingDirectory <- getwd()
 
-  qualificationPlanName <- "Evaluation_plan.json"
+  qualificationPlanName <- "evaluation_plan.json"
   qualificationPlanFile <- file.path(workingDirectory, "Input", qualificationPlanName)
 
   #' The default outputs of qualification runner should be generated under `<workingDirectory>/re_input`
@@ -101,7 +100,7 @@ createQualificationReport <- function(qualificationRunnerFolder,
     qualificationRunnerFolder = qualificationRunnerFolder,
     qualificationPlanFile = qualificationPlanFile,
     outputFolder = reInputFolder,
-    #    pkSimPortableFolder = ,
+    pkSimPortableFolder = pkSimPortableFolder,
     configurationPlanName = configurationPlanName,
     overwrite = overwrite,
     logFile = logFile,
@@ -141,19 +140,18 @@ createQualificationReport <- function(qualificationRunnerFolder,
   }
   
   #' Activate/Deactivate tasks of qualification workflow prior running
-  #  workflow$inactivateTasks("simulate")
-  #  workflow$inactivateTasks("calculatePKParameters")
-  #  workflow$inactivateTasks("plotTimeProfiles")
-  #  workflow$inactivateTasks("plotComparisonTimeProfile")
-  #  workflow$inactivateTasks("plotGOFMerged")
-  #  workflow$inactivateTasks("plotPKRatio")
-    workflow$inactivateTasks("plotDDIRatio")
+  # workflow$inactivateTasks("simulate")
+  # workflow$inactivateTasks("calculatePKParameters")
+  # workflow$inactivateTasks("plotTimeProfiles")
+  # workflow$inactivateTasks("plotComparisonTimeProfile")
+  # workflow$inactivateTasks("plotGOFMerged")
+  # workflow$inactivateTasks("plotPKRatio")
+  # workflow$inactivateTasks("plotDDIRatio")
+  
+  workflow$plotPKRatio$settings$units$C_max <- "ng/mL"
   
   #' Run the `QualificatitonWorklfow`
-   #workflow$plotPKRatio$settings$units$<PK parameter name> <- <PK parameter unit>
-   workflow$plotPKRatio$settings$units$C_max <- "ng/mL"
-      workflow$runWorkflow()
-  
+  workflow$runWorkflow()
 
   #' Print timer tracked time if option `recordWorkflowTime` is set to TRUE
   if (recordWorkflowTime) {
@@ -162,10 +160,3 @@ createQualificationReport <- function(qualificationRunnerFolder,
   }
   return(invisible())
 }
-
-createQualificationReport(qualificationRunnerFolder,
-                          pkSimPortableFolder = pkSimPortableFolder,
-                          createWordReport = FALSE,
-                          maxSimulationsPerCore = 3,
-                          versionInfo = NULL,
-                          wordConversionTemplate = NULL)

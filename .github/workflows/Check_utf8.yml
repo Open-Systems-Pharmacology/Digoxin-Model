@@ -10,4 +10,6 @@ jobs:
   utf8check:
     uses: Open-Systems-Pharmacology/Workflows/.github/workflows/UTF8Check.yml@main
     with:
-      file-extensions: 'R\|json\|md'
+      file-extensions: 'R\|json\|md'  #File extension(s) to check separated by \| Examples:
+                                      #R
+                                      #R\|json

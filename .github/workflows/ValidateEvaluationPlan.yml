@@ -1,0 +1,13 @@
+name: Validate Evaluation Plan
+
+on: 
+  [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  Validate-Evaluation-Plan:
+    uses: Open-Systems-Pharmacology/Workflows/.github/workflows/ValidateQualificationPlan.yml@main
+    with:
+      qualification-plan: 'Evaluation/Input/evaluation_plan.json'

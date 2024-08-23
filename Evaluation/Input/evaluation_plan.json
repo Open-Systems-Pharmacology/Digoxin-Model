@@ -1,4 +1,4 @@
-﻿{
+{
     "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.0/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
@@ -403,7 +403,7 @@
                                 "Project": "Digoxin",
                                 "Simulation": "Digoxin po, 0.25 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)",
+                                "ObservedData": "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 Âµg - Plasma - agg. (n=16)",
                                 "Color": "#005295"
                             },
                             {

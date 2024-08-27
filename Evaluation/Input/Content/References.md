@@ -20,7 +20,7 @@
 
 **Greiner 1999** Greiner, B. et al. The role of intestinal P-glycoprotein in the interaction of digoxin and rifampin. J. Clin. Invest. 104, 147–53 (1999).
 
-**Gurley 2008** Gurley, B.J., Swain, A., Williams, D.K., Barone, G. & Battu, S.K. Gauging the clinical significance of P-glycoprotein-mediated herb-drug interactions: comparative effects of St. John’s wort, Echinacea, clarithromycin, and rifampin on digoxin pharmacokinetics. Mol. Nutr. food Res. 52, 772–9 (2008). 
+**Gurley 2008b** Gurley, B.J., Swain, A., Williams, D.K., Barone, G. & Battu, S.K. Gauging the clinical significance of P-glycoprotein-mediated herb-drug interactions: comparative effects of St. John’s wort, Echinacea, clarithromycin, and rifampin on digoxin pharmacokinetics. Mol. Nutr. food Res. 52, 772–9 (2008). 
 
 **Hanke 2018** Hanke N, Frechen S, Moj D, Britz H, Eissing T, Wendl T, Lehr T. PBPK Models for CYP3A4 and P-gp DDI Prediction: A Modeling Network of Rifampicin, Itraconazole, Clarithromycin, Midazolam, Alfentanil, and Digoxin. CPT Pharmacometrics Syst Pharmacol.. 2018 Oct;7(10):647-659.
 

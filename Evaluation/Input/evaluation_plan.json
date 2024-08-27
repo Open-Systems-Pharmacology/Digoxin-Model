@@ -3,7 +3,7 @@
     "Projects": [
         {
             "Id": "Digoxin",
-            "Path": "../../Digoxin.json",
+            "Path": "../../Digoxin-Model.json",
             "BuildingBlocks": []
         }
     ],
@@ -244,56 +244,56 @@
                                 "Project": "Digoxin",
                                 "Simulation": "Digoxin colon, 0.5 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Ochs 1975 - 0.5mg Patient 1 with normal colon mucosa - Digoxin - IV - 0.5 mg - Plasma - indiv.",
+                                "ObservedData": "Ochs 1975 - 0.5mg Patient 1 with normal colon mucosa - Digoxin - Intracolonic - 0.5 mg - Plasma - indiv.",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Digoxin",
                                 "Simulation": "Digoxin colon, 0.5 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Ochs 1975 - 0.5mg Patient 2 with normal colon mucosa - Digoxin - IV - 0.5 mg - Plasma - indiv.",
+                                "ObservedData": "Ochs 1975 - 0.5mg Patient 2 with normal colon mucosa - Digoxin - Intracolonic - 0.5 mg - Plasma - indiv.",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Digoxin",
                                 "Simulation": "Digoxin colon, 0.5 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Ochs 1975 - 0.5mg Patient 3 with normal colon mucosa - Digoxin - IV - 0.5 mg - Plasma - indiv.",
+                                "ObservedData": "Ochs 1975 - 0.5mg Patient 3 with normal colon mucosa - Digoxin - Intracolonic - 0.5 mg - Plasma - indiv.",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Digoxin",
                                 "Simulation": "Digoxin colon, 0.5 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Ochs 1975 - 0.5mg Patient 4 with normal colon mucosa - Digoxin - IV - 0.5 mg - Plasma - indiv.",
+                                "ObservedData": "Ochs 1975 - 0.5mg Patient 4 with normal colon mucosa - Digoxin - Intracolonic - 0.5 mg - Plasma - indiv.",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Digoxin",
                                 "Simulation": "Digoxin colon, 0.5 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Ochs 1975 - 0.5mg Patient 5 with normal colon mucosa - Digoxin - IV - 0.5 mg - Plasma - indiv.",
+                                "ObservedData": "Ochs 1975 - 0.5mg Patient 5 with normal colon mucosa - Digoxin - Intracolonic - 0.5 mg - Plasma - indiv.",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Digoxin",
                                 "Simulation": "Digoxin colon, 0.5 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Ochs 1975 - 0.5mg Patient 6 with normal colon mucosa - Digoxin - IV - 0.5 mg - Plasma - indiv.",
+                                "ObservedData": "Ochs 1975 - 0.5mg Patient 6 with normal colon mucosa - Digoxin - Intracolonic - 0.5 mg - Plasma - indiv.",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Digoxin",
                                 "Simulation": "Digoxin colon, 0.5 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Ochs 1975 - 0.5mg Patient 7 with normal colon mucosa - Digoxin - IV - 0.5 mg - Plasma - indiv.",
+                                "ObservedData": "Ochs 1975 - 0.5mg Patient 7 with normal colon mucosa - Digoxin - Intracolonic - 0.5 mg - Plasma - indiv.",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Digoxin",
                                 "Simulation": "Digoxin colon, 0.5 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Ochs 1975 - 0.5mg Patient 8 with normal colon mucosa - Digoxin - IV - 0.5 mg - Plasma - indiv.",
+                                "ObservedData": "Ochs 1975 - 0.5mg Patient 8 with normal colon mucosa - Digoxin - Intracolonic - 0.5 mg - Plasma - indiv.",
                                 "Color": "#000000"
                             }
                         ]
@@ -383,7 +383,7 @@
                                 "Project": "Digoxin",
                                 "Simulation": "Digoxin iv, 1.0 mg, Bolus",
                                 "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kramer 1979 - 1mg iv bolus - Digoxin - IV - 1 mg - Serum - agg. (n=12)",
+                                "ObservedData": "Kramer 1979 - 1mg iv bolus - Digoxin - IV - 1 mg - Plasma - agg. (n=12)",
                                 "Color": "#FF0000"
                             },
                             {
@@ -410,7 +410,7 @@
                                 "Project": "Digoxin",
                                 "Simulation": "Digoxin po, 0.25 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Gurley 2008 - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
+                                "ObservedData": "Gurley 2008b - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
                                 "Color": "#005295"
                             },
                             {

@@ -9971,181 +9971,6 @@
       }
     },
     {
-      "Name": "Gurley 2008b - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
-      "ExtendedProperties": [
-        {
-          "Name": "DB Version",
-          "Value": "OSP DATABASE",
-          "Type": "String"
-        },
-        {
-          "Name": "ID",
-          "Value": 226.0,
-          "Type": "Double"
-        },
-        {
-          "Name": "Study Id",
-          "Value": "Gurley 2008b",
-          "Type": "String"
-        },
-        {
-          "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/18214850",
-          "Type": "String"
-        },
-        {
-          "Name": "Source",
-          "Value": "Fig. 1",
-          "Type": "String"
-        },
-        {
-          "Name": "Grouping",
-          "Value": "Control (Perpetrator Placebo)",
-          "Type": "String"
-        },
-        {
-          "Name": "Data type",
-          "Value": "aggregated",
-          "Type": "String"
-        },
-        {
-          "Name": "N",
-          "Value": 18.0,
-          "Type": "Double"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Digoxin",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma",
-          "Type": "String"
-        },
-        {
-          "Name": "Route",
-          "Value": "PO",
-          "Type": "String"
-        },
-        {
-          "Name": "Dose",
-          "Value": "0.25 mg",
-          "Type": "String"
-        },
-        {
-          "Name": "Times of Administration [h]",
-          "Value": 0.0,
-          "Type": "Double"
-        },
-        {
-          "Name": "Formulation",
-          "Value": "0.25 mg, Lanoxin®, GlaxoSmithKline",
-          "Type": "String"
-        },
-        {
-          "Name": "Food state",
-          "Value": "Fasted",
-          "Type": "String"
-        },
-        {
-          "Name": "Comment",
-          "Value": ".",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Avg",
-          "RelatedColumns": [
-            {
-              "Name": "Var",
-              "QuantityInfo": {
-                "Path": "Gurley 2008b - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticStdDev"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 780.93
-              },
-              "Values": [
-                "NaN",
-                0.0001054546,
-                0.00037818178,
-                0.000316363818,
-                0.0003054546,
-                0.0003054546,
-                0.0002654545,
-                0.0002763636,
-                0.0001781818,
-                0.0001127273
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "mg/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "Gurley 2008b - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 780.93,
-            "LLOQ": 1E-10
-          },
-          "Values": [
-            0.05,
-            0.1854545,
-            0.76,
-            1.101818,
-            1.090909,
-            0.8836364,
-            0.7927273,
-            0.7236364,
-            0.5127273,
-            0.32
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "Gurley 2008b - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          0.0,
-          0.33,
-          0.67,
-          1.0,
-          1.5,
-          2.0,
-          2.5,
-          3.0,
-          4.0,
-          6.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
       "Name": "Jalava 1997 - po Control (Perpetrator Placebo) - Digoxin - PO - 0.5 mg - Serum - agg. (n=10)",
       "ExtendedProperties": [
         {
@@ -35761,14 +35586,41 @@
         {
           "Name": "0.25 mg",
           "Classifiables": [
-            "Gurley 2008b - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
             "Eckermann 2012 - 0.25mg po - Digoxin - PO - 250 µg - Plasma - agg. (n=16)",
             "Friedrich 2011 - 0.25mg po md - Digoxin - PO - 0.25 mg - Plasma - agg. (n=20)",
             "Johne 1999 - 0.25mg po md with placebo day 6 - Digoxin - PO - 0.25 mg - Plasma - agg. (n=12)",
             "Johne 1999 - 0.25mg po md with placebo day 15 - Digoxin - PO - 0.25 mg - Plasma - agg. (n=12)",
             "Kirch 1986 - 2x0.25mg po md - Digoxin - PO - 0.25 mg - Plasma - agg. (n=7)",
             "Rodin 1988 - 2x0.25mg po md - Digoxin - PO - 0.25 mg - Plasma - agg. (n=10)",
-            "Vaidyanathan 2008 - 0.25mg po pd - Digoxin - PO - 0.25 mg - Plasma - agg. (n=22)"
+            "Rodin 1988 - 2x0.25mg po md - Digoxin - PO - 0.25 mg - Plasma - agg. (n=9)",
+            "Vaidyanathan 2008 - 0.25mg po pd - Digoxin - PO - 0.25 mg - Plasma - agg. (n=22)",
+            "Wiebe 2020 - Control digoxin - plasma - Digoxin - PO - 0.25 mg - Plasma - agg. (n=12)",
+            "Wiebe 2020 - Control digoxin - urine - Digoxin - PO - 0.25 mg - Urine - agg. (n=12)",
+            "Wiebe 2020 - DDI digoxin + verapamil - plasma - Digoxin - PO - 0.25 mg - Plasma - agg. (n=12)",
+            "Wiebe 2020 - DDI digoxin + verapamil - urine - Digoxin - PO - 0.25 mg - Urine - agg. (n=12)",
+            "Klein et al. 1982 - Digoxin and Verapamil in MD setting - Digoxin - PO - 0.25 mg - Serum - agg. (n=7)",
+            "Wiebe 2020 - Digoxin (Cocktail) + Rifampin - Digoxin - PO - 0.25 mg - Plasma - agg. (n=12)",
+            "Wiebe 2020 - Digoxin (Cocktail) + Rifampin - Digoxin - PO - 0.25 mg - Urine - agg. (n=12)",
+            "Wiebe 2020 - Digoxin + Placebo - Digoxin - PO - 0.25 mg - Plasma - agg. (n=12)",
+            "Wiebe 2020 - Digoxin + Placebo - Digoxin - PO - 0.25 mg - Urine - agg. (n=12)",
+            "Kurata 2002 - G/G2677C/C3435_Digoxin day 16 + Clarithromycin - Digoxin - PO - 0.25 mg - serum - agg. (n=5)",
+            "Kurata 2002 - T/T2677T/T3435_Digoxin day 16 + Clarithromycin - Digoxin - PO - 0.25 mg - serum - agg. (n=5)",
+            "Kurata 2002 - G/T2677C/T3435_Digoxin day 16 + Clarithromycin - Digoxin - PO - 0.25 mg - serum - agg. (n=5)",
+            "Partanen 1995 - Digoxin + Itraconazol in Part 1 - Digoxin - PO - 0.25 mg - serum - agg. (n=10)",
+            "Partanen 1995 - Digoxin + Itraconazol in Part 2 - Digoxin - PO - 0.25 mg - serum - agg. (n=10)",
+            "Gurley 2008b - Digoxin without Hyperforin - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
+            "Gurley 2008b - Digoxin with Hyperforin - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
+            "Johne 1999 - Digoxin MD with placebo - Digoxin - PO - 0.25 mg - Plasma - agg. (n=12)",
+            "Johne 1999 - Digoxin after SD St John's Wort - Digoxin - PO - 0.25 mg - Plasma - agg. (n=13)",
+            "Johne 1999 - Digoxin after MD St John's Wort - Digoxin - PO - 0.25 mg - Plasma - agg. (n=13)",
+            "Rodin 1988 - 2x0.25mg po md - Digoxin - PO - 0.25 mg - Urine - agg. (n=10)",
+            "Rodin 1988 - 2x0.25mg po md with verapamil - Digoxin - PO - 0.25 mg - Urine - agg. (n=10)",
+            "Rodin 1988 - 2x0.25mg po md - Digoxin - PO - 0.25 mg - Urine - agg. (n=9)",
+            "Rodin 1988 - 2x0.25mg po md with isradipine - Digoxin - PO - 0.25 mg - Urine - agg. (n=9)",
+            "Gurley 2008b - with Perpetrator (Echinacea) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
+            "Gurley 2008b - Control to Perpetrator Rifampicin - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
+            "Gurley 2008b - Control to Perpetrator Clarithromycin - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
+            "Gurley 2008b - Control to Perpetrator Echinacea - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)"
           ]
         },
         {
@@ -35788,7 +35640,14 @@
             "Ragueneau 1999 - 0.5mg po with placebo - Digoxin - PO - 0.5 mg - Plasma - agg. (n=18)",
             "Tayrouz 2003 - 0.5mg po with placebo - Digoxin - PO - 0.5 mg - Plasma - agg. (n=12)",
             "Westphal 2000 - 0.5mg po - Digoxin - PO - 0.5 mg - Plasma - agg. (n=10)",
-            "Verstuyft 2003 - 0.5mg with dipyridamole - Digoxin - PO - 0.5 mg - Urine - agg. (n=12)"
+            "Verstuyft 2003 - 0.5mg with dipyridamole - Digoxin - PO - 0.5 mg - Urine - agg. (n=12)",
+            "Kurata 2002 - G/G2677C/C3435_Digoxin day 1 - Digoxin - PO - 0.5 mg - Serum - agg. (n=5)",
+            "Kurata 2002 - T/T2677T/T3435_Digoxin day 1 - Digoxin - PO - 0.5 mg - serum - agg. (n=5)",
+            "Kurata 2002 - G/T2677C/T3435_Digoxin day 1 - Digoxin - PO - 0.5 mg - serum - agg. (n=5)",
+            "Gurley 2007 - Digoxin + Rifampicin - Digoxin - PO - 0.5 mg - serum - agg. (n=20)",
+            "Gurley 2007 - Digoxin + Clarithromycin - Digoxin - PO - 0.5 mg - serum - agg. (n=20)",
+            "Gurley 2007 - control to Rifampicin - Digoxin - PO - 0.5 mg - serum - agg. (n=20)",
+            "Gurley 2007 - control to Clarithromycin - Digoxin - PO - 0.5 mg - serum - agg. (n=20)"
           ]
         },
         {
@@ -35806,7 +35665,80 @@
         {
           "Name": "0.125 mg",
           "Classifiables": [
-            "Qiu 2010 - 0.125mg md QD placebo - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)"
+            "Qiu 2010 - 0.125mg md QD placebo - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
+            "Belz et al. 1983 - Digoxin + 80mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
+            "Belz et al. 1983 - Digoxin + 120mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
+            "Doering et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Serum - agg. (n=9)",
+            "Doering et al. 1983 - Digoxin+ 80mg Verapamil - Digoxin - PO - 0.125 mg - Serum - agg. (n=9)",
+            "Belz 1981 - Digoxin + Placebo - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
+            "Belz 1981 - Digoxin + Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
+            "Belz et al. 1983 - Digoxin control to 80mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
+            "Belz et al. 1983 - Digoxin control to 120mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)"
+          ]
+        },
+        {
+          "Name": "1/0.0625/0.125 mg",
+          "Classifiables": [
+            "Pedersen et al. 1982 - Digoxin and Verapamil in MD setting - Digoxin - PO - 1/0.0625/0.125 mg - Plasma - agg. (n=7)"
+          ]
+        },
+        {
+          "Name": "0.46 mg",
+          "Classifiables": [
+            "Schwartz et al. 1982 - Digoxin and Verapamil in MD setting - Digoxin - PO - 0.46 mg - Serum - agg. (n=10)"
+          ]
+        },
+        {
+          "Name": "0.4 mg",
+          "Classifiables": [
+            "Gurley 2006 - day 7 plasma + Rifampin - Digoxin - PO - 0.4 mg - serum - agg. (n=16)",
+            "Gurley 2006 - day 7 plasma + Clarithromycin - Digoxin - PO - 0.4 mg - serum - agg. (n=16)",
+            "Gurley 2006 - day 1 plasma before Rifampicin - Digoxin - PO - 0.4 mg - serum - agg. (n=16)",
+            "Gurley 2006 - day 1 plasma before Clarithromycin - Digoxin - PO - 0.4 mg - serum - agg. (n=16)"
+          ]
+        },
+        {
+          "Name": "0.75 (day 1 and 2); 0.25 days 3 (sampling day) mg",
+          "Classifiables": [
+            "Arold 2005 - Study B - Digoxin without Hyperforin (Day 1) - Digoxin - PO - 0.75 (day 1 and 2); 0.25 days 3 (sampling day) mg - Plasma - agg. (n=28)"
+          ]
+        },
+        {
+          "Name": "0.75 (day 1 and 2); 0.25 days 3 to 13 mg",
+          "Classifiables": [
+            "Arold 2005 - Study B - Digoxin with Hyperforin - Digoxin - PO - 0.75 (day 1 and 2); 0.25 days 3 to 13 mg - Plasma - agg. (n=16)",
+            "Arold 2005 - Study B - Digoxin with Placebo - Digoxin - PO - 0.75 (day 1 and 2); 0.25 days 3 to 13 mg - Plasma - agg. (n=12)"
+          ]
+        },
+        {
+          "Name": "unknown, see comment ",
+          "Classifiables": [
+            "Mueller 2004 - study part 1 - Placebo -  before - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=5)",
+            "Mueller 2004 - study part 1 - Placebo -  after - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=5)",
+            "Mueller 2004 - study part 1 - LI160 (~28.9mg/d hyperforin) - without hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=6)",
+            "Mueller 2004 - study part 1 - LI160 (~28.9mg/d hyperforin) - with hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=6)",
+            "Mueller 2004 - study part 1 - Hypericum powder type A, 4 g/d (~21.1mg/d hyperforin) - without hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=5)",
+            "Mueller 2004 - study part 1 - Hypericum powder type A, 4 g/d (~21.1mg/d hyperforin) - with hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=5)",
+            "Mueller 2004 - study part 1 - Hypericum powder type A, 2 g/d (~10.6mg/d hyperforin) - without hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=6)",
+            "Mueller 2004 - study part 1 - Hypericum powder type A, 2 g/d (~10.6mg/d hyperforin) - with hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=6)",
+            "Mueller 2004 - study part 2 - Placebo -  before - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=7)",
+            "Mueller 2004 - study part 2 - Placebo -  after - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=7)",
+            "Mueller 2004 - Hypericum powder type A, 1 g/d (~5.3mg/d hyperforin) -  without hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=7)",
+            "Mueller 2004 - Hypericum powder type A, 1 g/d (~5.3mg/d hyperforin) -  with hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=7)",
+            "Mueller 2004 - Hypericum powder type A, 0.5 g/d (~2.6mg/d hyperforin) - without hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=7)",
+            "Mueller 2004 - Hypericum powder type A, 0.5 g/d (~2.6mg/d hyperforin) - with hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=7)",
+            "Mueller 2004 - Hypericum oil extract (~0.13mg/d hyperforin) - without hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=7)",
+            "Mueller 2004 - Hypericum oil extract (~0.13mg/d hyperforin) - with hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=7)",
+            "Mueller 2004 - Tea (~0.04mg/d hyperforin) - without hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=7)",
+            "Mueller 2004 - Tea (~0.04mg/d hyperforin) - with hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=7)",
+            "Mueller 2004 - study part 3 - Placebo -  before - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=9)",
+            "Mueller 2004 - study part 3 - Placebo -  after - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=9)",
+            "Mueller 2004 - Hypericum powder type B, 2 g/d (~0.3mg/d hyperforin) - without hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=10)",
+            "Mueller 2004 - Hypericum powder type B, 2 g/d (~0.3mg/d hyperforin) - with hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=10)",
+            "Mueller 2004 - Fresh plant juice (~3.56mg/d hyperforin) - without hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=10)",
+            "Mueller 2004 - Fresh plant juice (~3.56mg/d hyperforin) - with hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=10)",
+            "Mueller 2004 - ZE 117 (~ca-0.38mg/d hyperforin) - without hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=7)",
+            "Mueller 2004 - ZE 117 (~ca-0.38mg/d hyperforin) - with hyperforin - Digoxin - PO - unknown, see comment  - Plasma - agg. (n=7)"
           ]
         }
       ]
@@ -35840,7 +35772,10 @@
             "Ochs 1975 - 0.5mg Patient 5 with normal colon mucosa - Digoxin - Intracolonic - 0.5 mg - Plasma - indiv.",
             "Ochs 1975 - 0.5mg Patient 6 with normal colon mucosa - Digoxin - Intracolonic - 0.5 mg - Plasma - indiv.",
             "Ochs 1975 - 0.5mg Patient 7 with normal colon mucosa - Digoxin - Intracolonic - 0.5 mg - Plasma - indiv.",
-            "Ochs 1975 - 0.5mg Patient 8 with normal colon mucosa - Digoxin - Intracolonic - 0.5 mg - Plasma - indiv."
+            "Ochs 1975 - 0.5mg Patient 8 with normal colon mucosa - Digoxin - Intracolonic - 0.5 mg - Plasma - indiv.",
+            "Kurata 2002 - G/G2677C/C3435_Digoxin day 1 - Digoxin - IV - 0.5 mg - serum - agg. (n=5)",
+            "Kurata 2002 - T/T2677T/T3435_Digoxin day 1 - Digoxin - IV - 0.5 mg - serum - agg. (n=5)",
+            "Kurata 2002 - G/T2677C/T3435_Digoxin day 1 - Digoxin - IV - 0.5 mg - serum - agg. (n=5)"
           ]
         },
         {
@@ -35849,13 +35784,21 @@
             "Greiner 1999 - iv Control (Perpetrator Placebo) - Digoxin - IV - 1 mg - Plasma - agg. (n=8)",
             "Kramer 1979 - 1mg iv bolus - Digoxin - IV - 1 mg - Plasma - agg. (n=12)",
             "Ochs 1978 - 1mg - Digoxin - IV - 1 mg - Plasma - agg. (n=9)",
-            "Ochs 1978 - 1mg - Digoxin - IV - 1 mg - Urine - agg. (n=9)"
+            "Ochs 1978 - 1mg - Digoxin - IV - 1 mg - Urine - agg. (n=9)",
+            "Johnson et al. 1987 - Digoxin IV control - Digoxin - IV - 1 mg - Serum - agg. (n=12)",
+            "Johnson et al. 1987 - Digoxin IV control - Digoxin - IV - 1 mg - Urine - agg. (n=12)",
+            "Johnson et al. 1987 - Digoxin IV + Verapamil - Digoxin - IV - 1 mg - Serum - agg. (n=12)",
+            "Johnson et al. 1987 - Digoxin IV + Verapamil - Digoxin - IV - 1 mg - Urine - agg. (n=12)",
+            "Pedersen et al. 1983 - Digoxin IV control - Digoxin - IV - 1 mg - Plasma - indiv.",
+            "Pedersen et al. 1983 - Digoxin IV + Verapamil - Digoxin - IV - 1 mg - Plasma - indiv.",
+            "Pedersen 1981 - Digoxin without Verapamil - Digoxin - IV - 1 mg - Urine - agg. (n=7)"
           ]
         },
         {
           "Name": "0.75 mg",
           "Classifiables": [
-            "Koup 1975 - 0.75mg iv h - Digoxin - IV - 0.75 mg - Plasma - indiv."
+            "Koup 1975 - 0.75mg iv h - Digoxin - IV - 0.75 mg - Plasma - indiv.",
+            "Pedersen 1981 - Digoxin withVerapamil - Digoxin - IV - 0.75 mg - Urine - agg. (n=7)"
           ]
         },
         {
@@ -35871,6 +35814,14 @@
           "Classifiables": [
             "Ochs 1978 - 1.5mg - Digoxin - IV - 1.5 mg - Plasma - agg. (n=9)",
             "Ochs 1978 - 1.5mg - Digoxin - IV - 1.5 mg - Urine - agg. (n=9)"
+          ]
+        },
+        {
+          "Name": "0.25 mg",
+          "Classifiables": [
+            "Kurata 2002 - G/G2677C/C3435_Digoxin day 16 + Clarithromycin - Digoxin - IV - 0.25 mg - serum - agg. (n=5)",
+            "Kurata 2002 - T/T2677T/T3435_Digoxin day 16 + Clarithromycin - Digoxin - IV - 0.25 mg - serum - agg. (n=5)",
+            "Kurata 2002 - G/T2677C/T3435_Digoxin day 16 + Clarithromycin - Digoxin - IV - 0.25 mg - serum - agg. (n=5)"
           ]
         }
       ]

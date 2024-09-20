@@ -181,6 +181,11 @@
             },
             {
                 "Project": "Digoxin",
+                "Simulation": "Digoxin po, 0.4 mg",
+                "SectionReference": "ct-profiles-model-building"
+            },            
+            {
+                "Project": "Digoxin",
                 "Simulation": "Digoxin po, 0.5 mg",
                 "SectionReference": "ct-profiles-model-building"
             },
@@ -410,9 +415,37 @@
                                 "Project": "Digoxin",
                                 "Simulation": "Digoxin po, 0.25 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Gurley 2008b - Control (Perpetrator Placebo) - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
+                                "ObservedData": "Gurley 2008b - Control to Perpetrator Clarithromycin - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
                                 "Color": "#005295"
                             },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.25 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Gurley 2008b - Control to Perpetrator Echinacea - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.25 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Gurley 2008b - Control to Perpetrator Rifampicin - Digoxin - PO - 0.25 mg - Serum - agg. (n=18)",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.4 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Gurley 2006 - day 1 plasma before Clarithromycin - Digoxin - PO - 0.4 mg - serum - agg. (n=16)",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.4 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Gurley 2006 - day 1 plasma before Rifampicin - Digoxin - PO - 0.4 mg - serum - agg. (n=16)",
+                                "Color": "#005295"
+                            },                                                        
                             {
                                 "Project": "Digoxin",
                                 "Simulation": "Digoxin po, 0.5 mg",
@@ -471,6 +504,20 @@
                             },
                             {
                                 "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Gurley 2007 - control to Rifampicin - Digoxin - PO - 0.5 mg - serum - agg. (n=20)",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Gurley 2007 - control to Clarithromycin - Digoxin - PO - 0.5 mg - serum - agg. (n=20)",
+                                "Color": "#005295"
+                            },                            
+                            {
+                                "Project": "Digoxin",
                                 "Simulation": "Digoxin po, 0.6 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Martin 1997 - 0.6mg po - Digoxin - PO - 0.6 mg - Plasma - agg. (n=12)",
@@ -517,6 +564,20 @@
                                 "ObservedData": "Qiu 2010 - 0.125mg md QD placebo - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
                                 "Color": "#008000"
                             },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po MD, 0.125 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Belz et al. 1983 - Digoxin control to 80mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
+                                "Color": "#008000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po MD, 0.125 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Belz et al. 1983 - Digoxin control to 120mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
+                                "Color": "#008000"
+                            },                                                        
                             {
                                 "Project": "Digoxin",
                                 "Simulation": "Digoxin po MD, 0.25 mg",

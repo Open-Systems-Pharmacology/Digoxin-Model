@@ -149,6 +149,9 @@ createQualificationReport <- function(qualificationRunnerFolder,
   # workflow$inactivateTasks("plotDDIRatio")
   
   workflow$plotPKRatio$settings$units$C_max <- "ng/mL"
+
+  # Workaround until https://github.com/Open-Systems-Pharmacology/OSPSuite.ReportingEngine/issues/1283 was fixed
+  cowplot::set_null_device("png")
   
   #' Run the `QualificatitonWorklfow`
   workflow$runWorkflow()

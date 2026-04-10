@@ -1,7 +1,7 @@
 # Digoxin-Model
 Whole-body PBPK model of digoxin
 
-<a title="Mrgreen71 / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)" href="https://commons.wikimedia.org/wiki/File:Digoxin.svg"><img width="512" alt="Digoxin" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Digoxin.svg/512px-Digoxin.svg.png"></a>
+<a title="Mrgreen71 / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)" href="https://commons.wikimedia.org/wiki/File:Digoxin.svg"><img width="512" alt="Digoxin" src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Digoxin.svg"></a>
 
 
 

@@ -1,6 +1,7 @@
 {
   "Name": "Digoxin-Model",
   "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Transporter",
@@ -36283,6 +36284,5 @@
         }
       ]
     }
-  ],
-  "ApplicationName": "PK-Sim"
+  ]
 }
